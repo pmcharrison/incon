@@ -1,0 +1,10 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+inst/doc
+cache/*
+tests/testthat/cache/*
+www
+inst/shiny/cache
+.cache
