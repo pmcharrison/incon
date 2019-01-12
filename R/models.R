@@ -252,7 +252,7 @@ add_model("parn_94_mult",
                                  ...))
 
 add_model("har_19_composite",
-          "Harrison & Pearce (2019)",
+          "Harrison & Pearce (in prep.)",
           "Composite",
           "incon",
           consonance = TRUE,

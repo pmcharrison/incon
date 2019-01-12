@@ -107,3 +107,33 @@ tribble(
                         sep = "")) %>% 
   kable
 ```
+
+## References
+
+Bowling, D. L., Purves, D., & Gill, K. Z. (2018). Vocal similarity predicts the relative attraction of musical chords. Proceedings of the National Academy of Sciences, 115(1), 216–221. https://doi.org/10.1073/pnas.1713206115
+
+Gill, K. Z., & Purves, D. (2009). A biological rationale for musical scales. PLoS ONE, 4(12). https://doi.org/10.1371/journal.pone.0008144
+
+Harrison, P. M. C., & Pearce, M. T. (2018). An energy-based generative sequence model for testing sensory theories of Western harmony. In Proceedings of the 19th International Society for Music Information Retrieval Conference (pp. 160–167). Paris, France.
+
+Harrison, P. M. C., & Pearce, M. T. (in prep.). Instantaneous consonance in the perception and composition of Western music.
+
+Huron, D. (1994). Interval-class content in equally tempered pitch-class sets: Common scales exhibit optimum tonal consonance. Music Perception, 11(3), 289–305. https://doi.org/10.2307/40285624
+
+Hutchinson, W., & Knopoff, L. (1978). The acoustic component of Western consonance. Journal of New Music Research, 7(1), 1–29. https://doi.org/10.1080/09298217808570246
+
+Johnson-Laird, P. N., Kang, O. E., & Leong, Y. C. (2012). On musical dissonance. Music Perception, 30(1), 19–35.
+
+Milne, A. J. (2013). A computational model of the cognition of tonality. The Open University, Milton Keynes, England.
+
+Parncutt, R. (1988). Revision of Terhardt’s psychoacoustical model of the root(s) of a musical chord. Music Perception, 6(1), 65–93.
+
+Parncutt, R., & Strasburger, H. (1994). Applying psychoacoustics in composition: "Harmonic" progressions of “nonharmonic” sonorities. Perspectives of New Music, 32(2), 88–129.
+
+Sethares, W. A. (1993). Local consonance and the relationship between timbre and scale. The Journal of the Acoustical Society of America, 94(3), 1218–1228.
+
+Stolzenburg, F. (2015). Harmony perception by periodicity detection. Journal of Mathematics and Music, 9(3), 215–238. https://doi.org/10.1080/17459737.2015.1033024
+
+Vassilakis, P. N. (2001). Perceptual and physical properties of amplitude fluctuation and their musical significance. University of California, Los Angeles, CA.
+
+Wang, Y. S., Shen, G. Q., Guo, H., Tang, X. L., & Hamade, T. (2013). Roughness modelling based on human auditory perception for sound quality evaluation of vehicle interior noise. Journal of Sound and Vibration, 332(16), 3893–3904. https://doi.org/10.1016/j.jsv.2013.02.030
