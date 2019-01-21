@@ -33,8 +33,9 @@ RdMacros: Rdpack
 Suggests: 
     testthat,
     knitr,
-    DT
-RoxygenNote: 6.1.0
+    DT,
+    covr
+RoxygenNote: 6.1.1
 Remotes: 
     pmcharrison/hrep,
     pmcharrison/bowl18,
