@@ -8,6 +8,7 @@ status](https://travis-ci.org/pmcharrison/incon.svg?branch=master)](https://trav
 status](https://ci.appveyor.com/api/projects/status/github/pmcharrison/incon?branch=master&svg=true)](https://ci.appveyor.com/project/pmcharrison/incon)
 [![Coverage
 status](https://coveralls.io/repos/github/pmcharrison/incon/badge.svg)](https://coveralls.io/r/pmcharrison/incon?branch=master)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2545766.svg)](https://doi.org/10.5281/zenodo.2545766)
 
 `incon` is an R package that implements various computational models of
 instantaneous consonance perception.
