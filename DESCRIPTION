@@ -1,7 +1,7 @@
 Package: incon
 Type: Package
 Title: Computational Models of Instantaneous Consonance
-Version: 0.2.0
+Version: 0.3.0
 Author: person("Peter", "Harrison", email = "pmc.harrison@gmail.com", role = c("aut", "cre"))
 Depends: R (>= 3.4.0)
 Maintainer: Peter Harrison <pmc.harrison@gmail.com>
