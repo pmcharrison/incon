@@ -32,7 +32,7 @@ models of instantaneous consonance perception.
 
 ## Citation
 
-Harrison, P., & Pearce, M. T. (2019). 
+Harrison, P. M C., & Pearce, M. T. (2019). 
 Instantaneous consonance in the perception and composition of Western music.
 *PsyArxiv*.
 https://doi.org/10.31234/osf.io/6jsug
@@ -122,7 +122,8 @@ Gill, K. Z., & Purves, D. (2009). A biological rationale for musical scales. PLo
 
 Harrison, P. M. C., & Pearce, M. T. (2018). An energy-based generative sequence model for testing sensory theories of Western harmony. In Proceedings of the 19th International Society for Music Information Retrieval Conference (pp. 160–167). Paris, France.
 
-Harrison, P. M. C., & Pearce, M. T. (in prep.). Instantaneous consonance in the perception and composition of Western music.
+Harrison, P. M. C., & Pearce, M. T. (2019). 
+Instantaneous consonance in the perception and composition of Western music. *PsyArxiv*. https://doi.org/10.31234/osf.io/6jsug
 
 Huron, D. (1994). Interval-class content in equally tempered pitch-class sets: Common scales exhibit optimum tonal consonance. Music Perception, 11(3), 289–305. https://doi.org/10.2307/40285624
 

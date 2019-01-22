@@ -102,7 +102,7 @@
 #' (see \code{jl12::\link[jl12]{jl_tonal_dissonance}}).
 #' * `har_19_corpus`:
 #' a corpus-based model of cultural familiarity
-#' (Harrison & Pearce, in preparation)
+#' \insertCite{Harrison2019}{incon}
 #' (see \code{corpdiss::\link[corpdiss]{corpus_dissonance}}).
 #' * `parn_94_mult`:
 #' the multiplicity feature of \insertCite{Parncutt1994;textual}{parn94}
@@ -111,7 +111,7 @@
 #' a model combining spectral interference \insertCite{Hutchinson1978}{dycon},
 #' periodicity \insertCite{Harrison2018}{har18},
 #' and cultural familiarity,
-#' as introduced by Harrison & Pearce (in preparation).
+#' as introduced by \insertCite{Harrison2019;textual}{incon}.
 #' @references
 #' \insertAllCited{}
 #' @md

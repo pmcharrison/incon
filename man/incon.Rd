@@ -105,7 +105,7 @@ the tonal dissonance model of \insertCite{Johnson-Laird2012;textual}{jl12}
 (see \code{jl12::\link[jl12]{jl_tonal_dissonance}}).
 \item \code{har_19_corpus}:
 a corpus-based model of cultural familiarity
-(Harrison & Pearce, in preparation)
+\insertCite{Harrison2019}{incon}
 (see \code{corpdiss::\link[corpdiss]{corpus_dissonance}}).
 \item \code{parn_94_mult}:
 the multiplicity feature of \insertCite{Parncutt1994;textual}{parn94}
@@ -114,7 +114,7 @@ the multiplicity feature of \insertCite{Parncutt1994;textual}{parn94}
 a model combining spectral interference \insertCite{Hutchinson1978}{dycon},
 periodicity \insertCite{Harrison2018}{har18},
 and cultural familiarity,
-as introduced by Harrison & Pearce (in preparation).
+as introduced by \insertCite{Harrison2019;textual}{incon}.
 }
 }
 \examples{

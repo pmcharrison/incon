@@ -229,7 +229,7 @@ add_model("jl_12_tonal",
             jl12::jl_tonal_dissonance(x, ...))
 
 add_model("har_19_corpus",
-          "Harrison & Pearce (in prep.)",
+          "Harrison & Pearce (2019)",
           "Culture",
           "corpdiss",
           consonance = FALSE,

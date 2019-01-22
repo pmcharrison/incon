@@ -15,8 +15,8 @@ instantaneous consonance perception.
 
 ## Citation
 
-Harrison, P., & Pearce, M. T. (2019). Instantaneous consonance in the
-perception and composition of Western music. *PsyArxiv*.
+Harrison, P. M C., & Pearce, M. T. (2019). Instantaneous consonance in
+the perception and composition of Western music. *PsyArxiv*.
 <https://doi.org/10.31234/osf.io/6jsug>
 
 ## Installation
@@ -79,7 +79,7 @@ implemented:
 | vass\_01\_roughness       | Vassilakis (2001)             | Spectral interference | dycon    |
 | wang\_13\_roughness       | Wang et al. (2013)            | Spectral interference | wang13   |
 | jl\_12\_tonal             | Johnson-Laird et al. (2012)   | Culture               | jl12     |
-| har\_19\_corpus           | Harrison & Pearce (in prep.)  | Culture               | corpdiss |
+| har\_19\_corpus           | Harrison & Pearce (2019)      | Culture               | corpdiss |
 | parn\_94\_mult            | Parncutt & Strasburger (1994) | Numerosity            | parn94   |
 | har\_19\_composite        | Harrison & Pearce (in prep.)  | Composite             | incon    |
 
@@ -120,8 +120,9 @@ sequence model for testing sensory theories of Western harmony. In
 Proceedings of the 19th International Society for Music Information
 Retrieval Conference (pp. 160–167). Paris, France.
 
-Harrison, P. M. C., & Pearce, M. T. (in prep.). Instantaneous consonance
-in the perception and composition of Western music.
+Harrison, P. M. C., & Pearce, M. T. (2019). Instantaneous consonance in
+the perception and composition of Western music. *PsyArxiv*.
+<https://doi.org/10.31234/osf.io/6jsug>
 
 Huron, D. (1994). Interval-class content in equally tempered pitch-class
 sets: Common scales exhibit optimum tonal consonance. Music Perception,
