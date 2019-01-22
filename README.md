@@ -13,11 +13,11 @@ status](https://coveralls.io/repos/github/pmcharrison/incon/badge.svg)](https://
 `incon` is an R package that implements various computational models of
 instantaneous consonance perception.
 
-## Authors
+## Citation
 
-This package, and the supporting packages listed in *Packages*, were
-created by Peter M. C. Harrison as part of a research project supervised
-by Marcus T. Pearce and Emmanouil Benetos.
+Harrison, P., & Pearce, M. T. (2019). Instantaneous consonance in the
+perception and composition of Western music. *PsyArxiv*.
+<https://doi.org/10.31234/osf.io/6jsug>
 
 ## Installation
 
@@ -88,21 +88,22 @@ See `?incon` for more details.
 ## Packages
 
 The functionality of `incon` is split between several low-level R
-packages, listed below.
+packages, listed
+below.
 
-| Package  | DOI | GitHub                                    |
-| :------- | :-- | :---------------------------------------- |
-| bowl18   | NA  | <https://github.com/pmcharrison/bowl18>   |
-| corpdiss | NA  | <https://github.com/pmcharrison/corpdiss> |
-| dycon    | NA  | <https://github.com/pmcharrison/dycon>    |
-| har18    | NA  | <https://github.com/pmcharrison/har18>    |
-| hcorp    | NA  | <https://github.com/pmcharrison/hcorp>    |
-| hrep     | NA  | <https://github.com/pmcharrison/hrep>     |
-| jl12     | NA  | <https://github.com/pmcharrison/jl12>     |
-| parn88   | NA  | <https://github.com/pmcharrison/parn88>   |
-| parn94   | NA  | <https://github.com/pmcharrison/parn94>   |
-| stolz15  | NA  | <https://github.com/pmcharrison/stolz15>  |
-| wang13   | NA  | <https://github.com/pmcharrison/wang13>   |
+| Package  | DOI                                                              | GitHub                                    |
+| :------- | :--------------------------------------------------------------- | :---------------------------------------- |
+| bowl18   | [10.5281/zenodo.2545741](https://doi.org/10.5281/zenodo.2545741) | <https://github.com/pmcharrison/bowl18>   |
+| corpdiss | [10.5281/zenodo.2545748](https://doi.org/10.5281/zenodo.2545748) | <https://github.com/pmcharrison/corpdiss> |
+| dycon    | [10.5281/zenodo.2545750](https://doi.org/10.5281/zenodo.2545750) | <https://github.com/pmcharrison/dycon>    |
+| har18    | [10.5281/zenodo.2545752](https://doi.org/10.5281/zenodo.2545752) | <https://github.com/pmcharrison/har18>    |
+| hcorp    | [10.5281/zenodo.2545754](https://doi.org/10.5281/zenodo.2545754) | <https://github.com/pmcharrison/hcorp>    |
+| hrep     | [10.5281/zenodo.2545770](https://doi.org/10.5281/zenodo.2545770) | <https://github.com/pmcharrison/hrep>     |
+| jl12     | [10.5281/zenodo.2545756](https://doi.org/10.5281/zenodo.2545756) | <https://github.com/pmcharrison/jl12>     |
+| parn88   | [10.5281/zenodo.1491909](https://doi.org/10.5281/zenodo.1491909) | <https://github.com/pmcharrison/parn88>   |
+| parn94   | [10.5281/zenodo.2545759](https://doi.org/10.5281/zenodo.2545759) | <https://github.com/pmcharrison/parn94>   |
+| stolz15  | [10.5281/zenodo.2545762](https://doi.org/10.5281/zenodo.2545762) | <https://github.com/pmcharrison/stolz15>  |
+| wang13   | [10.5281/zenodo.2545764](https://doi.org/10.5281/zenodo.2545764) | <https://github.com/pmcharrison/wang13>   |
 
 ## References
 
