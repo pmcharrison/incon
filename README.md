@@ -26,7 +26,7 @@ the following commands into R:
 
 ``` r
 if (!require(devtools)) install.packages("devtools")
-devtools::install_github("incon")
+devtools::install_github("pmcharrison/incon")
 ```
 
 ## Usage
