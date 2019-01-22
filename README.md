@@ -34,13 +34,26 @@ devtools::install_github("pmcharrison/incon")
 The primary function is `incon`, which applies consonance models to an
 input chord. The default model is that of Hutchinson & Knopoff (1978):
 
-    #> hutch_78_roughness 
-    #>          0.1202426
+``` r
+library(incon)
+
+chord <- c(60, 64, 67) # major triad, MIDI note numbers
+incon(chord)
+#> hutch_78_roughness 
+#>          0.1202426
+```
 
 You can specify a vector of models and these will applied in turn.
 
-    #> hutch_78_roughness       parn_94_pure    huron_94_dyadic 
-    #>          0.1300830          0.6368813          2.2200000
+``` r
+chord <- c(60, 63, 67) # minor triad
+models <- c("hutch_78_roughness", 
+            "parn_94_pure",
+            "huron_94_dyadic")
+incon(c(60, 63, 67), models)
+#> hutch_78_roughness       parn_94_pure    huron_94_dyadic 
+#>          0.1300830          0.6368813          2.2200000
+```
 
 See *Models* for a list of available models. See the package’s inbuilt
 documentation, `?incon`, for further details.
