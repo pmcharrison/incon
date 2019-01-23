@@ -1,0 +1,10 @@
+citEntry(entry = "Article",
+         author = personList(as.person("Peter M. C. Harrison"),
+                             as.person("Marcus T. Pearce")),
+         title = "Instantaneous consonance in the perception and composition of Western music",
+         journal = "PsyArXiv", year = 2019,
+         doi = "10.31234/osf.io/6jsug",
+         textVersion = paste(
+           "Harrison, P. M C., & Pearce, M. T. (2019).",
+           "Instantaneous consonance in the perception and composition",
+           "of Western music. PsyArXiv. https://doi.org/10.31234/osf.io/6jsug"))
