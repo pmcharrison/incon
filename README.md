@@ -61,25 +61,25 @@ documentation, `?incon`, for further details.
 Currently the following models are
 implemented:
 
-| Label                     | Citation                      | Class                 | Package  |
-| :------------------------ | :---------------------------- | :-------------------- | :------- |
-| gill\_09\_harmonicity     | Gill & Purves (2009)          | Periodicity           | bowl18   |
-| har\_18\_harmonicity      | Harrison & Pearce (2018)      | Periodicity           | har18    |
-| milne\_13\_harmonicity    | Milne (2013)                  | Periodicity           | har18    |
-| parn\_88\_root\_ambig     | Parncutt (1988)               | Periodicity           | parn88   |
-| parn\_94\_complex         | Parncutt & Strasburger (1994) | Periodicity           | parn94   |
-| stolz\_15\_periodicity    | Stolzenburg (2015)            | Periodicity           | stolz15  |
-| bowl\_18\_min\_freq\_dist | Bowling et al. (2018)         | Spectral interference | bowl18   |
-| huron\_94\_dyadic         | Huron (1994)                  | Spectral interference | incon    |
-| hutch\_78\_roughness      | Hutchinson & Knopoff (1978)   | Spectral interference | dycon    |
-| parn\_94\_pure            | Parncutt & Strasburger (1994) | Spectral interference | parn94   |
-| seth\_93\_roughness       | Sethares (1993)               | Spectral interference | dycon    |
-| vass\_01\_roughness       | Vassilakis (2001)             | Spectral interference | dycon    |
-| wang\_13\_roughness       | Wang et al. (2013)            | Spectral interference | wang13   |
-| jl\_12\_tonal             | Johnson-Laird et al. (2012)   | Culture               | jl12     |
-| har\_19\_corpus           | Harrison & Pearce (2019)      | Culture               | corpdiss |
-| parn\_94\_mult            | Parncutt & Strasburger (1994) | Numerosity            | parn94   |
-| har\_19\_composite        | Harrison & Pearce (in prep.)  | Composite             | incon    |
+| Label                     | Citation                      | Class                   | Package  |
+| :------------------------ | :---------------------------- | :---------------------- | :------- |
+| gill\_09\_harmonicity     | Gill & Purves (2009)          | Periodicity/harmonicity | bowl18   |
+| har\_18\_harmonicity      | Harrison & Pearce (2018)      | Periodicity/harmonicity | har18    |
+| milne\_13\_harmonicity    | Milne (2013)                  | Periodicity/harmonicity | har18    |
+| parn\_88\_root\_ambig     | Parncutt (1988)               | Periodicity/harmonicity | parn88   |
+| parn\_94\_complex         | Parncutt & Strasburger (1994) | Periodicity/harmonicity | parn94   |
+| stolz\_15\_periodicity    | Stolzenburg (2015)            | Periodicity/harmonicity | stolz15  |
+| bowl\_18\_min\_freq\_dist | Bowling et al. (2018)         | Interference            | bowl18   |
+| huron\_94\_dyadic         | Huron (1994)                  | Interference            | incon    |
+| hutch\_78\_roughness      | Hutchinson & Knopoff (1978)   | Interference            | dycon    |
+| parn\_94\_pure            | Parncutt & Strasburger (1994) | Interference            | parn94   |
+| seth\_93\_roughness       | Sethares (1993)               | Interference            | dycon    |
+| vass\_01\_roughness       | Vassilakis (2001)             | Interference            | dycon    |
+| wang\_13\_roughness       | Wang et al. (2013)            | Interference            | wang13   |
+| jl\_12\_tonal             | Johnson-Laird et al. (2012)   | Culture                 | jl12     |
+| har\_19\_corpus           | Harrison & Pearce (2019)      | Culture                 | corpdiss |
+| parn\_94\_mult            | Parncutt & Strasburger (1994) | Numerosity              | parn94   |
+| har\_19\_composite        | Harrison & Pearce (in prep.)  | Composite               | incon    |
 
 See `?incon` for more details.
 
