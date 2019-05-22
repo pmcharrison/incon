@@ -1,6 +1,6 @@
-#' Instantaneous consonance
+#' Simultaneous consonance
 #'
-#' Computes the instantaneous consonance (or dissonance) of a sonority
+#' Computes the simultaneous consonance (or dissonance) of a sonority
 #' according to various computational models.
 #'
 #' @param x Chord to analyse.
@@ -108,8 +108,8 @@
 #' the multiplicity feature of \insertCite{Parncutt1994;textual}{parn94}
 #' (see \code{parn94::\link[parn94]{multiplicity}}).
 #' * `har_19_composite`:
-#' a model combining spectral interference \insertCite{Hutchinson1978}{dycon},
-#' periodicity \insertCite{Harrison2018}{har18},
+#' a model combining interference \insertCite{Hutchinson1978}{dycon},
+#' periodicity/harmonicity \insertCite{Harrison2018}{har18},
 #' and cultural familiarity,
 #' as introduced by \insertCite{Harrison2019;textual}{incon}.
 #' @references
