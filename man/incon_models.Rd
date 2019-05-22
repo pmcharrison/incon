@@ -3,7 +3,7 @@
 \docType{data}
 \name{incon_models}
 \alias{incon_models}
-\title{Instantaneous consonance models}
+\title{Simultaneous consonance models}
 \format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 17 rows and 8 columns.}
 \usage{
 incon_models

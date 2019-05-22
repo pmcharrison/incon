@@ -1,4 +1,4 @@
-#' Instantaneous consonance models
+#' Simultaneous consonance models
 #'
 #' This \code{\link[tibble]{tibble}} summarises the
 #' consonance models available in the \code{incon} package.

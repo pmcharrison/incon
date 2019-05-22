@@ -1,5 +1,5 @@
 
-# incon - Computational Models of Instantaneous Consonance
+# incon - Computational Models of Simultaneous Consonance
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-maturing-blue.svg)](https://www.tidyverse.org/lifecycle/#maturing)
 [![Travis build
@@ -9,7 +9,7 @@ status](https://ci.appveyor.com/api/projects/status/github/pmcharrison/incon?bra
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2545766.svg)](https://doi.org/10.5281/zenodo.2545766)
 
 `incon` is an R package that implements various computational models of
-instantaneous consonance perception.
+simultaneous consonance perception.
 
 ## Citation
 

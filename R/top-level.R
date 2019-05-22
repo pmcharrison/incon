@@ -1,6 +1,6 @@
-#' Instantaneous consonance
+#' Simultaneous consonance
 #'
-#' Computes the instantaneous consonance (or dissonance) of a sonority
+#' Computes the simultaneous consonance (or dissonance) of a sonority
 #' according to various computational models.
 #'
 #' @param x Chord to analyse.

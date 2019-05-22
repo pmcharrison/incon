@@ -2,7 +2,7 @@
 % Please edit documentation in R/top-level.R
 \name{incon}
 \alias{incon}
-\title{Instantaneous consonance}
+\title{Simultaneous consonance}
 \usage{
 incon(x, model = "hutch_78_roughness", x_int = NULL,
   num_harmonics = 11L, roll_off = 1, par = list())
@@ -54,7 +54,7 @@ A named numeric vector comprising the outputs of each computational model
 in the order that they were specified.
 }
 \description{
-Computes the instantaneous consonance (or dissonance) of a sonority
+Computes the simultaneous consonance (or dissonance) of a sonority
 according to various computational models.
 }
 \details{
