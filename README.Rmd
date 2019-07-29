@@ -31,7 +31,7 @@ models of simultaneous consonance perception.
 
 ## Citation
 
-Harrison, P. M C., & Pearce, M. T. (2019). 
+Harrison, P. M. C., & Pearce, M. T. (2019). 
 Instantaneous consonance in the perception and composition of Western music.
 *PsyArXiv*.
 https://doi.org/10.31234/osf.io/6jsug
