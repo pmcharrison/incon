@@ -10,31 +10,31 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
-    Rdpack,
-    hrep,
-    bowl18,
-    corpdiss,
-    dycon,
-    har18,
-    jl12,
-    parn88,
-    parn94,
-    stolz15,
-    wang13,
-    checkmate,
-    magrittr,
-    purrr,
+    Rdpack (>= 0.11.0),
+    hrep (>= 0.10.0.9001),
+    bowl18 (>= 0.1.0),
+    corpdiss (>= 0.1.0.9000),
+    dycon (>= 0.2.0),
+    har18 (>= 0.1.0),
+    jl12 (>= 0.1.0),
+    parn88 (>= 0.2.0),
+    parn94 (>= 0.2.2),
+    stolz15 (>= 0.1.0),
+    wang13 (>= 0.1.1),
+    checkmate (>= 1.9.4),
+    magrittr (>= 1.5),
+    purrr (>= 0.3.2),
     methods,
-    tibble,
-    dplyr,
-    zeallot,
+    tibble (>= 2.1.3),
+    dplyr (>= 0.8.3),
+    zeallot (>= 0.1.0),
     utils
 RdMacros: Rdpack
 Suggests: 
-    testthat,
-    knitr,
-    DT,
-    covr
+    testthat (>= 2.1.1),
+    knitr (>= 1.23),
+    DT (>= 0.5),
+    covr (>= 3.2.1)
 RoxygenNote: 6.1.1
 Remotes: 
     pmcharrison/hrep,
