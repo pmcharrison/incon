@@ -79,7 +79,7 @@ implemented:
 | jl\_12\_tonal             | Johnson-Laird et al. (2012)   | Culture                 | jl12     |
 | har\_19\_corpus           | Harrison & Pearce (2019)      | Culture                 | corpdiss |
 | parn\_94\_mult            | Parncutt & Strasburger (1994) | Numerosity              | parn94   |
-| har\_19\_composite        | Harrison & Pearce (in prep.)  | Composite               | incon    |
+| har\_19\_composite        | Harrison & Pearce (2019)      | Composite               | incon    |
 
 See `?incon` for more details.
 
