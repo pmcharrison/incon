@@ -1,3 +1,5 @@
+# incon 0.4.1
+
 - Addressing some minor dependency issues.
 
 # incon 0.4.0
