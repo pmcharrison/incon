@@ -13,9 +13,7 @@ simultaneous consonance perception.
 
 ## Citation
 
-Harrison, P. M. C., & Pearce, M. T. (2019). Instantaneous consonance in
-the perception and composition of Western music. *PsyArXiv*.
-<https://doi.org/10.31234/osf.io/6jsug>
+Harrison, P. M. C., & Pearce, M. T. (2020). Simultaneous consonance in music perception and composition. *Psychological Review, 127*(2), 216-244. http://dx.doi.org/10.1037/rev0000169
 
 ## Installation
 
