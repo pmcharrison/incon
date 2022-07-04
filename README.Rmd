@@ -113,6 +113,25 @@ tribble(
   kable
 ```
 
+## Spectral representations
+
+Certain `incon` models can be applied to full frequency spectra rather than just
+symbolically notated chords. One example is the set of interference models
+provided in the `dycon` package. In order to run such models on full frequency 
+spectra one must call `hrep` and `dycon` functions explicitly, as in the 
+following example, which computes the roughness of a chord using the 
+Hutchinson-Knopoff dissonance model:
+
+``` r
+spectrum <- 
+  hrep::sparse_fr_spectrum(list(
+    frequency = c(400, 800, 1200, 1250),
+    amplitude = c(1, 0.7, 0.9, 0.6)
+  ))
+
+dycon::roughness_hutch(spectrum)
+```
+
 ## References
 
 Bowling, D. L., Purves, D., & Gill, K. Z. (2018). Vocal similarity predicts the relative attraction of musical chords. Proceedings of the National Academy of Sciences, 115(1), 216–221. https://doi.org/10.1073/pnas.1713206115
