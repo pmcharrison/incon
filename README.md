@@ -101,6 +101,26 @@ below.
 | stolz15  | [10.5281/zenodo.2545762](https://doi.org/10.5281/zenodo.2545762) | <https://github.com/pmcharrison/stolz15>  |
 | wang13   | [10.5281/zenodo.2545764](https://doi.org/10.5281/zenodo.2545764) | <https://github.com/pmcharrison/wang13>   |
 
+
+## Spectral representations
+
+Certain `incon` models can be applied to full frequency spectra rather than just
+symbolically notated chords. One example is the set of interference models
+provided in the `dycon` package. In order to run such models on full frequency 
+spectra one must call `hrep` and `dycon` functions explicitly, as in the 
+following example, which computes the roughness of a chord using the 
+Hutchinson-Knopoff dissonance model:
+
+``` r
+spectrum <- 
+  hrep::sparse_fr_spectrum(list(
+    frequency = c(400, 800, 1200, 1250),
+    amplitude = c(1, 0.7, 0.9, 0.6)
+  ))
+
+dycon::roughness_hutch(spectrum)
+```
+
 ## References
 
 Bowling, D. L., Purves, D., & Gill, K. Z. (2018). Vocal similarity
