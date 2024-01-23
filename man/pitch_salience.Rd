@@ -29,7 +29,7 @@ and the last element corresponds to the \code{max_midi} argument.
 }
 \description{
 Analyses the pitch salience of a sonority, after
-\insertCite{Parncutt1994;textual}{parn94}.
+\insertCite{Parncutt1994;textual}{incon}.
 }
 \references{
 \insertAllCited{}

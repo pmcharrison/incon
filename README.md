@@ -13,7 +13,9 @@ simultaneous consonance perception.
 
 ## Citation
 
-Harrison, P. M. C., & Pearce, M. T. (2020). Simultaneous consonance in music perception and composition. *Psychological Review, 127*(2), 216-244. http://dx.doi.org/10.1037/rev0000169
+Harrison, P. M. C., & Pearce, M. T. (2019). Instantaneous consonance in
+the perception and composition of Western music. *PsyArXiv*.
+<https://doi.org/10.31234/osf.io/6jsug>
 
 ## Installation
 
@@ -56,39 +58,38 @@ documentation, `?incon`, for further details.
 
 ## Models
 
-Currently the following models are
-implemented:
+Currently the following models are implemented:
 
-| Label                     | Citation                      | Class                   | Package  |
-| :------------------------ | :---------------------------- | :---------------------- | :------- |
-| gill\_09\_harmonicity     | Gill & Purves (2009)          | Periodicity/harmonicity | incon    |
-| har\_18\_harmonicity      | Harrison & Pearce (2018)      | Periodicity/harmonicity | har18    |
-| milne\_13\_harmonicity    | Milne (2013)                  | Periodicity/harmonicity | har18    |
-| parn\_88\_root\_ambig     | Parncutt (1988)               | Periodicity/harmonicity | parn88   |
-| parn\_94\_complex         | Parncutt & Strasburger (1994) | Periodicity/harmonicity | parn94   |
-| stolz\_15\_periodicity    | Stolzenburg (2015)            | Periodicity/harmonicity | stolz15  |
-| bowl\_18\_min\_freq\_dist | Bowling et al. (2018)         | Interference            | incon    |
-| huron\_94\_dyadic         | Huron (1994)                  | Interference            | incon    |
-| hutch\_78\_roughness      | Hutchinson & Knopoff (1978)   | Interference            | dycon    |
-| parn\_94\_pure            | Parncutt & Strasburger (1994) | Interference            | parn94   |
-| seth\_93\_roughness       | Sethares (1993)               | Interference            | dycon    |
-| vass\_01\_roughness       | Vassilakis (2001)             | Interference            | dycon    |
-| wang\_13\_roughness       | Wang et al. (2013)            | Interference            | wang13   |
-| jl\_12\_tonal             | Johnson-Laird et al. (2012)   | Culture                 | jl12     |
-| har\_19\_corpus           | Harrison & Pearce (2019)      | Culture                 | corpdiss |
-| parn\_94\_mult            | Parncutt & Strasburger (1994) | Numerosity              | parn94   |
-| har\_19\_composite        | Harrison & Pearce (2019)      | Composite               | incon    |
+| Label                 | Citation                      | Class                   | Package |
+|:----------------------|:------------------------------|:------------------------|:--------|
+| gill_09_harmonicity   | Gill & Purves (2009)          | Periodicity/harmonicity | incon   |
+| har_18_harmonicity    | Harrison & Pearce (2018)      | Periodicity/harmonicity | incon   |
+| milne_13_harmonicity  | Milne (2013)                  | Periodicity/harmonicity | incon   |
+| parn_88_root_ambig    | Parncutt (1988)               | Periodicity/harmonicity | incon   |
+| parn_94_complex       | Parncutt & Strasburger (1994) | Periodicity/harmonicity | incon   |
+| stolz_15_periodicity  | Stolzenburg (2015)            | Periodicity/harmonicity | incon   |
+| bowl_18_min_freq_dist | Bowling et al. (2018)         | Interference            | incon   |
+| huron_94_dyadic       | Huron (1994)                  | Interference            | incon   |
+| hutch_78_roughness    | Hutchinson & Knopoff (1978)   | Interference            | incon   |
+| parn_94_pure          | Parncutt & Strasburger (1994) | Interference            | incon   |
+| seth_93_roughness     | Sethares (1993)               | Interference            | incon   |
+| vass_01_roughness     | Vassilakis (2001)             | Interference            | incon   |
+| wang_13_roughness     | Wang et al. (2013)            | Interference            | incon   |
+| jl_12_tonal           | Johnson-Laird et al. (2012)   | Culture                 | incon   |
+| har_19_corpus         | Harrison & Pearce (2019)      | Culture                 | incon   |
+| parn_94_mult          | Parncutt & Strasburger (1994) | Numerosity              | incon   |
+| har_19_composite      | Harrison & Pearce (2019)      | Composite               | incon   |
 
 See `?incon` for more details.
 
 ## Spectral representations
 
-Certain `incon` models can be applied to full frequency spectra rather than just
-symbolically notated chords. One example is the set of interference models
-provided in the `dycon` package. In order to run such models on full frequency 
-spectra one must call `hrep` and `dycon` functions explicitly, as in the 
-following example, which computes the roughness of a chord using the 
-Hutchinson-Knopoff dissonance model:
+Certain `incon` models can be applied to full frequency spectra rather
+than just symbolically notated chords. One example is the set of
+interference models provided in the `dycon` package. In order to run
+such models on full frequency spectra one must call lower-level
+functions explicitly, as in the following example, which computes the
+roughness of a chord using the Hutchinson-Knopoff dissonance model:
 
 ``` r
 spectrum <- 
@@ -97,7 +98,7 @@ spectrum <-
     amplitude = c(1, 0.7, 0.9, 0.6)
   ))
 
-dycon::roughness_hutch(spectrum)
+roughness_hutch(spectrum)
 ```
 
 ## References

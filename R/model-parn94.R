@@ -594,7 +594,7 @@ pitch_salience.parn94 <- function(x, ...) {
 #' Get pure sonorousness
 #'
 #' Computes the pure sonorousness of a sound, after
-#' \insertCite{Parncutt1994;textual}{parn94}.
+#' \insertCite{Parncutt1994;textual}{incon}.
 #' @param x Object to analyse.
 #' @param k_p Parncutt & Strasburger (1994) set this to 0.5 (p. 105).
 #' @param ... Further parameters to pass to \code{\link{parn94}()}.

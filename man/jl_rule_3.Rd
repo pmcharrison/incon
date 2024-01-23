@@ -21,7 +21,7 @@ accessible with the command \code{attr(x, "solution")}.
 than chords that are not built from thirds."
 "The principle allows for just one missing third intervening
 between two pitch classes a fifth apart"
-\insertCite{Johnson-Laird2012}{jl12}.
+\insertCite{Johnson-Laird2012}{incon}.
 }
 \references{
 \insertAllCited{}

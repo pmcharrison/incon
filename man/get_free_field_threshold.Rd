@@ -17,7 +17,7 @@ Returns the free-field threshold (dB SPL) of hearing in quiet for pure tones
 of given frequencies.
 This is the minimum sound level at which a pure tone at that frequency
 will be heard.
-Corresponds to Equation 2 in \insertCite{Parncutt1994;textual}{parn94}.
+Corresponds to Equation 2 in \insertCite{Parncutt1994;textual}{incon}.
 }
 \references{
 \insertAllCited{}

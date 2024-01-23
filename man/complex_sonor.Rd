@@ -24,7 +24,7 @@ Complex sonorousness, a numeric scalar.
 }
 \description{
 Computes the complex sonorousness of a sound, after
-\insertCite{Parncutt1994;textual}{parn94}.
+\insertCite{Parncutt1994;textual}{incon}.
 }
 \references{
 \insertAllCited{}

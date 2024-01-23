@@ -54,7 +54,7 @@ as created by \code{\link{parn94_params}()}.}
 \description{
 This function analyses a sonority using Richard Parncutt's
 psychoacoustic model of harmony, as described in
-\insertCite{Parncutt1994;textual}{parn94}.
+\insertCite{Parncutt1994;textual}{incon}.
 }
 \references{
 \insertAllCited{}

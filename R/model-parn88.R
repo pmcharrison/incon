@@ -13,21 +13,21 @@ NULL
 #' Parncutt (1988)
 #'
 #' Analyses a pitch-class set using the root-finding model of
-#' \insertCite{Parncutt1988;textual}{parn88}.
+#' \insertCite{Parncutt1988;textual}{incon}.
 #' @param x Sonority to analyse.
 #' This will be coerced to an object of class \code{\link[hrep]{pc_set}}.
 #' @param root_support (Character scalar or data frame)
 #' Identifies the root support weights to use.
 #' * \code{"v2"} (default) uses the updated
-#' weights from \insertCite{Parncutt2006;textual}{parn88}.
-#' * \code{"v1"} uses the original weights from \insertCite{Parncutt2006;textual}{parn88}.
+#' weights from \insertCite{Parncutt2006;textual}{incon}.
+#' * \code{"v1"} uses the original weights from \insertCite{Parncutt2006;textual}{incon}.
 #'
 #' See \code{\link{root_support_weights}} for the values of these weights.
 #' Alternatively, root-support weights can be provided as a data frame,
 #' with one column (interval) identifying the ascending interval in semitones,
 #' and another column (weight) identifying the corresponding root support weight.
 #' @param exponent (Numeric scalar) Exponent to be used when computing
-#' root ambiguities. Defaults to 0.5, after \insertCite{Parncutt1988;textual}{parn88}.
+#' root ambiguities. Defaults to 0.5, after \insertCite{Parncutt1988;textual}{incon}.
 #' @return A list with three values:
 #' * \code{root}, the estimated chord root (integer scalar);
 #' * \code{root_ambiguity}, the root ambiguity (numeric scalar),
@@ -71,9 +71,9 @@ parn88.pc_set <- function(x, root_support = "v2", exponent = 0.5) {
 #' Root
 #'
 #' Estimates the chord root of a pitch-class set using the root-finding model of
-#' \insertCite{Parncutt1988;textual}{parn88}.
-#' This function is a wrapper for \code{\link{parn88}}.
-#' @param ... Arguments to pass to \code{\link{parn88}}.
+#' \insertCite{Parncutt1988;textual}{incon}.
+#' This function is a wrapper for \code{\link{incon}}.
+#' @param ... Arguments to pass to \code{\link{incon}}.
 #' @return The estimated chord root (integer scalar).
 #' @references
 #'   \insertAllCited{}
@@ -85,7 +85,7 @@ root <- function(...) {
 #' Root ambiguity
 #'
 #' Estimates the root ambiguity of a pitch-class set using the root-finding model of
-#' \insertCite{Parncutt1988;textual}{parn88}.
+#' \insertCite{Parncutt1988;textual}{incon}.
 #' This function is a wrapper for \code{\link{parn88}}.
 #' @param ... Arguments to pass to \code{\link{parn88}}.
 #' @return The root ambiguity (numeric scalar).
@@ -99,7 +99,7 @@ root_ambiguity <- function(...) {
 #' Root support weights
 #'
 #' A list of different root support weights that may be used
-#' by the root-finding algorithm of \insertCite{Parncutt1988;textual}{parn88}.
+#' by the root-finding algorithm of \insertCite{Parncutt1988;textual}{incon}.
 #' See \code{\link{parn88}} for more information.
 #' @references
 #'   \insertAllCited{}

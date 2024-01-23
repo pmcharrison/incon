@@ -16,7 +16,7 @@ No input checking is performed.}
 \description{
 "Chords that are consistent with a major triad are more consonant
 than chords that are not consistent with a major triad"
-\insertCite{Johnson-Laird2012}{jl12}.
+\insertCite{Johnson-Laird2012}{incon}.
 Consistency with the major triad means that a major triad
 must be contained within the chord.
 Additionally, all notes must be contained within a major scale.

@@ -10,7 +10,7 @@ get_tone_salience(combined_audibility, k_s)
 \item{combined_audibility}{Numeric vector corresponding to the
 audibilities of each tone in the combined (pure and complex) spectrum.}
 
-\item{k_s}{Numeric scalar; \insertCite{Parncutt1994;textual}{parn94}
+\item{k_s}{Numeric scalar; \insertCite{Parncutt1994;textual}{incon}
 set this to 0.5.}
 }
 \value{

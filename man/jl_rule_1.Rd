@@ -18,7 +18,7 @@ No input checking is performed.}
 than chords occurring only in a minor scale,
 which in turn should be less dissonant than chords
 occurring in neither sort of scale."
-\insertCite{Johnson-Laird2012}{jl12}.
+\insertCite{Johnson-Laird2012}{incon}.
 }
 \references{
 \insertAllCited{}

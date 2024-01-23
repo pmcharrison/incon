@@ -22,7 +22,7 @@ with higher values corresponding to increasing degrees of dissonance.
 }
 \description{
 Computes tonal dissonance using the algorithm
-of \insertCite{Johnson-Laird2012;textual}{jl12}.
+of \insertCite{Johnson-Laird2012;textual}{incon}.
 }
 \examples{
 jl_tonal_dissonance(c(0, 4, 7))

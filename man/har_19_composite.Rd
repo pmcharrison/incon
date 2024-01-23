@@ -31,8 +31,8 @@ composite consonance model.
 The model combines several sub-models:
 \itemize{
 \item \code{hutch_78_roughness},
-the roughness model of \insertCite{Hutchinson1978;textual}{dycon}
-(see \code{dycon::\link[dycon]{roughness_hutch}});
+the roughness model of \insertCite{Hutchinson1978;textual}{incon}
+(see \code{incon::\link[incon]{roughness_hutch}});
 \item \code{har_18_harmonicity},
 the harmonicity model of \insertCite{Harrison2018;textual}{incon}
 (see \code{incon::\link[incon]{pc_harmonicity}});

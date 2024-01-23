@@ -90,12 +90,14 @@ expand_harmonics <- function(x, max_freq) {
   UseMethod("expand_harmonics")
 }
 
+#' @export
 expand_harmonics.rational_chord <- function(x, max_freq) {
   purrr::map(seq_len(ncol(x)),
              ~ expand_harmonics(fraction(x[, .]), max_freq)) %>%
     Reduce(union, .)
 }
 
+#' @export
 expand_harmonics.fraction <- function(x, max_freq) {
   stopifnot(is(max_freq, "fraction"))
   n <- 0L
@@ -116,12 +118,14 @@ fraction <- function(x, ...) {
   UseMethod("fraction")
 }
 
+#' @export
 fraction.numeric <- function(x, ...) {
   checkmate::qassert(x, "X2")
   class(x) <- "fraction"
   x
 }
 
+#' @export
 as.character.fraction <- function(x, ...) {
   paste0(x[1], "/", x[2])
 }
@@ -130,6 +134,7 @@ half <- function(x) {
   UseMethod("half")
 }
 
+#' @export
 half.fraction <- function(x) {
   if (x[1] %% 2L == 0L) x[1] <- x[1] / 2L else x[2] <- x[2] * 2L
   x
@@ -139,6 +144,7 @@ double <- function(x) {
   UseMethod("double")
 }
 
+#' @export
 double.fraction <- function(x) {
   if (x[2] %% 2L == 0L) x[2] <- x[2] / 2L else x[1] <- x[1] * 2L
   x
@@ -148,6 +154,7 @@ gcd <- function(x) {
   UseMethod("gcd")
 }
 
+#' @export
 gcd.rational_chord <- function(x) {
   y <- c(numbers::mGCD(x[1, ]),
          numbers::mLCM(x[2, ]))
@@ -158,6 +165,7 @@ lcm <- function(x) {
   UseMethod("lcm")
 }
 
+#' @export
 lcm.rational_chord <- function(x) {
   y <- c(numbers::mLCM(x[1, ]),
          numbers::mGCD(x[2, ]))

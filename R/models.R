@@ -125,12 +125,12 @@ add_model("parn_94_complex",
 add_model("stolz_15_periodicity",
           "Stolzenburg (2015)",
           "Periodicity/harmonicity",
-          "stolz15",
+          "incon",
           consonance = FALSE,
           spectrum_sensitive = FALSE,
           continuous_pitch = TRUE,
           f = function(x, num_harmonics, roll_off, ...)
-            stolz15::smooth_log_periodicity(x, ...))
+            smooth_log_periodicity(x, ...))
 
 add_model("bowl_18_min_freq_dist",
           "Bowling et al. (2018)",
@@ -155,54 +155,54 @@ add_model("huron_94_dyadic",
 add_model("hutch_78_roughness",
           "Hutchinson & Knopoff (1978)",
           "Interference",
-          "dycon",
+          "incon",
           consonance = FALSE,
           spectrum_sensitive = TRUE,
           continuous_pitch = TRUE,
           f = function(x, num_harmonics, roll_off, ...)
-            dycon::roughness_hutch(x,
-                                   num_harmonics = num_harmonics,
-                                   roll_off = roll_off,
-                                   ...))
+            roughness_hutch(x,
+                            num_harmonics = num_harmonics,
+                            roll_off = roll_off,
+                            ...))
 
 add_model("parn_94_pure",
           "Parncutt & Strasburger (1994)",
           "Interference",
-          "parn94",
+          "incon",
           consonance = TRUE,
           spectrum_sensitive = TRUE,
           continuous_pitch = FALSE,
           f = function(x, num_harmonics, roll_off, ...)
-            parn94::pure_sonor(x,
-                               num_harmonics = num_harmonics,
-                               roll_off = roll_off,
-                               ...))
+            pure_sonor(x,
+                       num_harmonics = num_harmonics,
+                       roll_off = roll_off,
+                       ...))
 
 add_model("seth_93_roughness",
           "Sethares (1993)",
           "Interference",
-          "dycon",
+          "incon",
           consonance = FALSE,
           spectrum_sensitive = TRUE,
           continuous_pitch = TRUE,
           f = function(x, num_harmonics, roll_off, ...)
-            dycon::roughness_seth(x,
-                                  num_harmonics = num_harmonics,
-                                  roll_off = roll_off,
-                                  ...))
+            roughness_seth(x,
+                           num_harmonics = num_harmonics,
+                           roll_off = roll_off,
+                           ...))
 
 add_model("vass_01_roughness",
           "Vassilakis (2001)",
           "Interference",
-          "dycon",
+          "incon",
           consonance = FALSE,
           spectrum_sensitive = TRUE,
           continuous_pitch = TRUE,
           f = function(x, num_harmonics, roll_off, ...)
-            dycon::roughness_vass(x,
-                                  num_harmonics = num_harmonics,
-                                  roll_off = roll_off,
-                                  ...))
+            roughness_vass(x,
+                           num_harmonics = num_harmonics,
+                           roll_off = roll_off,
+                           ...))
 
 add_model("wang_13_roughness",
           "Wang et al. (2013)",
@@ -221,12 +221,12 @@ add_model("wang_13_roughness",
 add_model("jl_12_tonal",
           "Johnson-Laird et al. (2012)",
           "Culture",
-          "jl12",
+          "incon",
           consonance = FALSE,
           spectrum_sensitive = FALSE,
           continuous_pitch = FALSE,
           f = function(x, num_harmonics, roll_off, ...)
-            jl12::jl_tonal_dissonance(x, ...))
+            jl_tonal_dissonance(x, ...))
 
 add_model("har_19_corpus",
           "Harrison & Pearce (2019)",
@@ -241,15 +241,15 @@ add_model("har_19_corpus",
 add_model("parn_94_mult",
           "Parncutt & Strasburger (1994)",
           "Numerosity",
-          "parn94",
+          "incon",
           consonance = TRUE,
           spectrum_sensitive = TRUE,
           continuous_pitch = FALSE,
           f = function(x, num_harmonics, roll_off, ...)
-            parn94::multiplicity(x,
-                                 num_harmonics = num_harmonics,
-                                 roll_off = roll_off,
-                                 ...))
+            multiplicity(x,
+                         num_harmonics = num_harmonics,
+                         roll_off = roll_off,
+                         ...))
 
 add_model("har_19_composite",
           "Harrison & Pearce (2019)",

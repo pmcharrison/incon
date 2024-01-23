@@ -20,8 +20,8 @@ This will be coerced to an object of class \code{\link[hrep]{pc_set}}.}
 Identifies the root support weights to use.
 \itemize{
 \item \code{"v2"} (default) uses the updated
-weights from \insertCite{Parncutt2006;textual}{parn88}.
-\item \code{"v1"} uses the original weights from \insertCite{Parncutt2006;textual}{parn88}.
+weights from \insertCite{Parncutt2006;textual}{incon}.
+\item \code{"v1"} uses the original weights from \insertCite{Parncutt2006;textual}{incon}.
 }
 
 See \code{\link{root_support_weights}} for the values of these weights.
@@ -30,7 +30,7 @@ with one column (interval) identifying the ascending interval in semitones,
 and another column (weight) identifying the corresponding root support weight.}
 
 \item{exponent}{(Numeric scalar) Exponent to be used when computing
-root ambiguities. Defaults to 0.5, after \insertCite{Parncutt1988;textual}{parn88}.}
+root ambiguities. Defaults to 0.5, after \insertCite{Parncutt1988;textual}{incon}.}
 }
 \value{
 A list with three values:
@@ -42,7 +42,7 @@ A list with three values:
 }
 \description{
 Analyses a pitch-class set using the root-finding model of
-\insertCite{Parncutt1988;textual}{parn88}.
+\insertCite{Parncutt1988;textual}{incon}.
 }
 \references{
 \insertAllCited{}

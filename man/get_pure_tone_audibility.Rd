@@ -17,7 +17,7 @@ Numeric vector of pure tone audibilities.
 \description{
 Returns the audibility of a set of pure tone components as a
 function of their audible levels.
-Corresponds to Equation 7 of \insertCite{Parncutt1994;textual}{parn94}.
+Corresponds to Equation 7 of \insertCite{Parncutt1994;textual}{incon}.
 }
 \references{
 \insertAllCited{}

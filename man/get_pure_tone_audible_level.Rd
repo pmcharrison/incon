@@ -19,7 +19,7 @@ Numeric vector of audible levels (dB).
 \description{
 Returns the audible level for set of pure tones subject
 to a given masking pattern.
-Corresponds to Equation 6 of \insertCite{Parncutt1994;textual}{parn94}.
+Corresponds to Equation 6 of \insertCite{Parncutt1994;textual}{incon}.
 }
 \references{
 \insertAllCited{}

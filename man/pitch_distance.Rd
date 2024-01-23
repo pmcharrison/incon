@@ -20,7 +20,7 @@ Pitch distance, as a numeric scalar.
 }
 \description{
 Gets the pitch distance between two sonorities, after
-\insertCite{Parncutt1994;textual}{parn94}.
+\insertCite{Parncutt1994;textual}{incon}.
 }
 \references{
 \insertAllCited{}

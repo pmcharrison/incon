@@ -7,15 +7,15 @@
 root(...)
 }
 \arguments{
-\item{...}{Arguments to pass to \code{\link{parn88}}.}
+\item{...}{Arguments to pass to \code{\link{incon}}.}
 }
 \value{
 The estimated chord root (integer scalar).
 }
 \description{
 Estimates the chord root of a pitch-class set using the root-finding model of
-\insertCite{Parncutt1988;textual}{parn88}.
-This function is a wrapper for \code{\link{parn88}}.
+\insertCite{Parncutt1988;textual}{incon}.
+This function is a wrapper for \code{\link{incon}}.
 }
 \references{
 \insertAllCited{}

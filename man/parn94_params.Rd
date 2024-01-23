@@ -55,7 +55,7 @@ such as \code{\link{parn94}}.
 \description{
 This function compiles parameters for Parncutt's psychoacoustic model.
 The parameters are defined with reference to
-\insertCite{Parncutt1994;textual}{parn94}.
+\insertCite{Parncutt1994;textual}{incon}.
 }
 \references{
 \insertAllCited{}

@@ -12,7 +12,7 @@ root_support_weights
 }
 \description{
 A list of different root support weights that may be used
-by the root-finding algorithm of \insertCite{Parncutt1988;textual}{parn88}.
+by the root-finding algorithm of \insertCite{Parncutt1988;textual}{incon}.
 See \code{\link{parn88}} for more information.
 }
 \references{

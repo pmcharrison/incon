@@ -1,7 +1,7 @@
 #' Tonal dissonance
 #'
 #' Computes tonal dissonance using the algorithm
-#' of \insertCite{Johnson-Laird2012;textual}{jl12}.
+#' of \insertCite{Johnson-Laird2012;textual}{incon}.
 #' @param x Sonority to analyse.
 #' This will be coerced to an object of class \code{\link[hrep]{pc_set}}.
 #' @return Integer scalar identifying the chord's consonance rank,
@@ -41,7 +41,7 @@ jl_tonal_dissonance.pc_set <- function(x) {
 #' than chords occurring only in a minor scale,
 #' which in turn should be less dissonant than chords
 #' occurring in neither sort of scale."
-#' \insertCite{Johnson-Laird2012}{jl12}.
+#' \insertCite{Johnson-Laird2012}{incon}.
 #' @param pc_set (Numeric vector) Pitch-class set to analyse.
 #' No input checking is performed.
 #' @return 1, 2, or 3, corresponding to increasing degrees of dissonance.
@@ -58,7 +58,7 @@ jl_rule_1 <- function(pc_set) {
 #'
 #' "Chords that are consistent with a major triad are more consonant
 #' than chords that are not consistent with a major triad"
-#' \insertCite{Johnson-Laird2012}{jl12}.
+#' \insertCite{Johnson-Laird2012}{incon}.
 #' Consistency with the major triad means that a major triad
 #' must be contained within the chord.
 #' Additionally, all notes must be contained within a major scale.
@@ -84,7 +84,7 @@ jl_rule_2 <- function(pc_set) {
 #' than chords that are not built from thirds."
 #' "The principle allows for just one missing third intervening
 #' between two pitch classes a fifth apart"
-#' \insertCite{Johnson-Laird2012}{jl12}.
+#' \insertCite{Johnson-Laird2012}{incon}.
 #' @param pc_set (Numeric vector) Pitch-class set to analyse.
 #' @return \code{FALSE} for consonant, \code{TRUE} for dissonant.
 #' If a consonant solution is found,

@@ -21,7 +21,7 @@ get_partial_masking_level(
 
 \item{maskee_pure_tone_height}{Numeric vector of maskee pure tone heights.}
 
-\item{k_m}{Parameter \code{k_m} in \insertCite{Parncutt1994;textual}{parn94}.
+\item{k_m}{Parameter \code{k_m} in \insertCite{Parncutt1994;textual}{incon}.
 represents the masking pattern gradient for a pure tone,
 with units of dB per critical band.
 Parncutt & Strasburger use a value of 12 in their examples,
@@ -34,7 +34,7 @@ for masker j on maskee i.
 \description{
 Returns the effective reduction in dB of the audible level
 of a masked pure tone (maskee) on account of a masking pure tone (masker).
-Equation 4 in \insertCite{Parncutt1994;textual}{parn94}.
+Equation 4 in \insertCite{Parncutt1994;textual}{incon}.
 }
 \references{
 \insertAllCited{}

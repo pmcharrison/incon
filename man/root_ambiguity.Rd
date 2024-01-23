@@ -14,7 +14,7 @@ The root ambiguity (numeric scalar).
 }
 \description{
 Estimates the root ambiguity of a pitch-class set using the root-finding model of
-\insertCite{Parncutt1988;textual}{parn88}.
+\insertCite{Parncutt1988;textual}{incon}.
 This function is a wrapper for \code{\link{parn88}}.
 }
 \references{

@@ -16,7 +16,7 @@ with units of equivalent rectangular bandwidths (ERBs).
 \description{
 Returns the pure-tone heights (a.k.a. critical-band rates)
 of pure tones of given frequencies.
-Equation 3 in \insertCite{Parncutt1994;textual}{parn94}.
+Equation 3 in \insertCite{Parncutt1994;textual}{incon}.
 }
 \references{
 \insertAllCited{}

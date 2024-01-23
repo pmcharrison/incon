@@ -17,14 +17,14 @@ multiplicity(x, k_s = parn94_params()$k_s, ...)
 
 \item{k_s}{Numeric scalar, parameter from Parncutt & Strasburger (1994).}
 
-\item{...}{Further parameters to pass to \code{\link{parn94}()}.}
+\item{...}{Further parameters to pass to \code{\link{incon}()}.}
 }
 \value{
 Multiplicity, a numeric scalar.
 }
 \description{
 Computes the multiplicity of a sound, after
-\insertCite{Parncutt1994;textual}{parn94}.
+\insertCite{Parncutt1994;textual}{incon}.
 }
 \references{
 \insertAllCited{}
