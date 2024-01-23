@@ -77,7 +77,7 @@ the harmonicity model of \insertCite{Milne2013;textual}{incon}
 (see \code{incon::\link[incon]{pc_harmonicity}}).
 \item \code{parn_88_root_ambig}:
 the root ambiguity model of \insertCite{Parncutt1988;textual}{parn88}
-(see \code{parn88::\link[parn88]{root_ambiguity}}).
+(see \code{incon::\link[incon]{root_ambiguity}}).
 \item \code{parn_94_complex}:
 the complex sonorousness feature of \insertCite{Parncutt1994;textual}{parn94}
 (see \code{parn94::\link[parn94]{complex_sonor}}).
