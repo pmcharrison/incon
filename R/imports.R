@@ -10,6 +10,9 @@ NULL
 #' @importFrom stats "approx" "cor" "fft"
 NULL
 
+#' @importFrom tibble tibble
+NULL
+
 #' @importFrom utils "capture.output"
 NULL
 

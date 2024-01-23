@@ -231,12 +231,12 @@ add_model("jl_12_tonal",
 add_model("har_19_corpus",
           "Harrison & Pearce (2019)",
           "Culture",
-          "corpdiss",
+          "incon",
           consonance = FALSE,
           spectrum_sensitive = FALSE,
           continuous_pitch = FALSE,
           f = function(x, num_harmonics, roll_off, ...)
-            corpdiss::corpus_dissonance(x, ...))
+            corpus_dissonance(x, ...))
 
 add_model("parn_94_mult",
           "Parncutt & Strasburger (1994)",

@@ -30,7 +30,7 @@ har_19_composite_coef <- tibble::tribble(
 #' - `har_19_corpus`:
 #' a corpus-based model of cultural familiarity
 #' (Harrison & Pearce, in preparation)
-#' (see \code{corpdiss::\link[corpdiss]{corpus_dissonance}}).
+#' (see \code{incon::\link[incon]{corpus_dissonance}}).
 #'
 #' This model uses the regression coefficients
 #' provided in \code{\link{har_19_composite_coef}}, with one caveat:

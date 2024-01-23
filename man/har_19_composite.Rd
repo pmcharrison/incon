@@ -39,7 +39,7 @@ the harmonicity model of \insertCite{Harrison2018;textual}{har18}
 \item \code{har_19_corpus}:
 a corpus-based model of cultural familiarity
 (Harrison & Pearce, in preparation)
-(see \code{corpdiss::\link[corpdiss]{corpus_dissonance}}).
+(see \code{incon::\link[incon]{corpus_dissonance}}).
 }
 
 This model uses the regression coefficients

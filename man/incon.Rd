@@ -112,7 +112,7 @@ the tonal dissonance model of \insertCite{Johnson-Laird2012;textual}{jl12}
 \item \code{har_19_corpus}:
 a corpus-based model of cultural familiarity
 \insertCite{Harrison2019}{incon}
-(see \code{corpdiss::\link[corpdiss]{corpus_dissonance}}).
+(see \code{incon::\link[incon]{corpus_dissonance}}).
 \item \code{parn_94_mult}:
 the multiplicity feature of \insertCite{Parncutt1994;textual}{parn94}
 (see \code{parn94::\link[parn94]{multiplicity}}).
