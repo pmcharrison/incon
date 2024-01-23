@@ -185,6 +185,7 @@ rationalise_chord <- function(x, tonic) {
   UseMethod("rationalise_chord")
 }
 
+#' @export
 rationalise_chord.pi_chord <- function(x, tonic) {
   x <- hrep::tp(x, - tonic)
   octave <- floor(hrep::get_bass_pi(x) / 12)

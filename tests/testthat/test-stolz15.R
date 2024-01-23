@@ -7,14 +7,14 @@ library(magrittr)
 test_that("approximating fractions", {
   # These examples are taken from Table 1 of
   # 10.1080/17459737.2015.1033024
-  expect_equal(fraction(1.059, 0.01), c(16, 15))
-  expect_equal(fraction(1.122, 0.01), c(9, 8))
-  expect_equal(fraction(1.189, 0.01), c(6, 5))
-  expect_equal(fraction(1.260, 0.01), c(5, 4))
-  expect_equal(fraction(1.335, 0.011), c(4, 3))
-  expect_equal(fraction(1.414, 0.011), c(7, 5))
-  expect_equal(fraction(1.498, 0.011), c(3, 2))
-  expect_equal(fraction(1.587, 0.011), c(8, 5))
+  expect_equal(stolz15_fraction(1.059, 0.01), c(16, 15))
+  expect_equal(stolz15_fraction(1.122, 0.01), c(9, 8))
+  expect_equal(stolz15_fraction(1.189, 0.01), c(6, 5))
+  expect_equal(stolz15_fraction(1.260, 0.01), c(5, 4))
+  expect_equal(stolz15_fraction(1.335, 0.011), c(4, 3))
+  expect_equal(stolz15_fraction(1.414, 0.011), c(7, 5))
+  expect_equal(stolz15_fraction(1.498, 0.011), c(3, 2))
+  expect_equal(stolz15_fraction(1.587, 0.011), c(8, 5))
 })
 
 test_that("double fraction", {
@@ -36,9 +36,9 @@ test_that("get_rational_interval_2", {
 })
 
 test_that("least common multiple", {
-  expect_equal(lcm(c(4, 6)), 12)
-  expect_equal(lcm(c(21, 6)), 42)
-  expect_equal(lcm(c(8, 9, 21)), 504)
+  expect_equal(stolz15_lcm(c(4, 6)), 12)
+  expect_equal(stolz15_lcm(c(21, 6)), 42)
+  expect_equal(stolz15_lcm(c(8, 9, 21)), 504)
 })
 
 test_that("smooth_log_periodicity", {
