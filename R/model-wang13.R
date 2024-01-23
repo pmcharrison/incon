@@ -776,7 +776,7 @@ shiny_ui_input <- function(opt) {
 #' @note The demo takes the form of an Shiny app
 #' (\url{https://shiny.rstudio.com/}).
 #' @references
-#' \insertRef{Wang2013}{wang13}
+#' \insertRef{Wang2013}{incon}
 #' @export
 demo_wang <- function(audio = TRUE) {
   pkg_suggest <- c("cowplot", "shiny", "shinyjs", "shinydashboard")
@@ -934,7 +934,7 @@ demo_wang <- function(audio = TRUE) {
 #' @return If \code{detail == FALSE}, a numeric vector of roughnesses,
 #' otherwise a list containing detailed algorithm output.
 #' @references
-#' \insertRef{Wang2013}{wang13}
+#' \insertRef{Wang2013}{incon}
 #' @note
 #' This implementation is designed for sparse input spectra, that is,
 #' spectra containing only a few (< 100) components.

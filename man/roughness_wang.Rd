@@ -91,5 +91,5 @@ This implementation is designed for sparse input spectra, that is,
 spectra containing only a few (< 100) components.
 }
 \references{
-\insertRef{Wang2013}{wang13}
+\insertRef{Wang2013}{incon}
 }

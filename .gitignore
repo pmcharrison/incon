@@ -8,3 +8,4 @@ tests/testthat/cache/*
 www
 inst/shiny/cache
 .cache
+.DS_Store

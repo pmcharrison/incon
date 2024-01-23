@@ -46,7 +46,7 @@ This model uses the regression coefficients
 provided in \code{\link{har_19_composite_coef}}, with one caveat:
 by default, the chord size effect is disabled,
 because it's thought that this effect came from a confound
-in the perceptual data of \insertCite{Bowling2018;textual}{bowl18}.
+in the perceptual data of \insertCite{Bowling2018;textual}{incon}.
 }
 \references{
 \insertAllCited{}

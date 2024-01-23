@@ -86,33 +86,6 @@ incon::incon_models %>%
 
 See `?incon` for more details.
 
-## Packages
-
-The functionality of `incon` is split between several low-level R packages,
-listed below.
-
-```{r, results = "asis", echo = FALSE}
-tribble(
-  ~ Package, ~ DOI,
-  "bowl18", "10.5281/zenodo.2545741",
-  "corpdiss", "10.5281/zenodo.2545748",
-  "dycon", "10.5281/zenodo.2545750",
-  "har18", "10.5281/zenodo.2545752",
-  "hcorp", "10.5281/zenodo.2545754",
-  "hrep", "10.5281/zenodo.2545770",
-  "jl12", "10.5281/zenodo.2545756",
-  "parn88", "10.5281/zenodo.1491909",
-  "parn94", "10.5281/zenodo.2545759",
-  "stolz15", "10.5281/zenodo.2545762",
-  "wang13", "10.5281/zenodo.2545764",
-) %>% 
-  mutate(GitHub = paste("https://github.com/pmcharrison/", 
-                        Package,
-                        sep = ""),
-         DOI = sprintf("[%s](https://doi.org/%s)", DOI, DOI)) %>% 
-  kable
-```
-
 ## Spectral representations
 
 Certain `incon` models can be applied to full frequency spectra rather than just

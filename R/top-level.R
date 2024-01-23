@@ -58,8 +58,8 @@
 #' @details
 #' The following models are available:
 #' * `gill_09_harmonicity`:
-#' the harmonicity model of \insertCite{Gill2009;textual}{bowl18}
-#' (see \code{bowl18::\link[bowl18]{gill09_harmonicity}}).
+#' the harmonicity model of \insertCite{Gill2009;textual}{incon}
+#' (see \code{incon::\link[incon]{gill09_harmonicity}}).
 #' * `har_18_harmonicity`:
 #' the harmonicity model of \insertCite{Harrison2018;textual}{har18}
 #' (see \code{har18::\link[har18]{pc_harmonicity}}).
@@ -78,8 +78,8 @@
 #' (see \code{stolz15::\link[stolz15]{smooth_log_periodicity}}).
 #' * `bowl_18_min_freq_dist`:
 #' the minimum frequency distance feature of
-#' \insertCite{Bowling2018;textual}{bowl18}
-#' (see \code{bowl18::\link[bowl18]{bowl18_min_freq_dist}}).
+#' \insertCite{Bowling2018;textual}{incon}
+#' (see \code{incon::\link[incon]{bowl18_min_freq_dist}}).
 #' * `huron_94_dyadic`:
 #' aggregate dyadic consonance, after \insertCite{Huron1994;textual}{incon}.
 #' * `hutch_78_roughness`:
@@ -96,7 +96,7 @@
 #' (see \code{dycon::\link[dycon]{roughness_vass}}).
 #' * `wang_13_roughness`:
 #' the roughness model of \insertCite{Wang2013;textual}{wang13}
-#' (see \code{wang13::\link[wang13]{roughness_wang}}).
+#' (see \code{incon::\link[incon]{roughness_wang}}).
 #' * `jl_12_tonal`:
 #' the tonal dissonance model of \insertCite{Johnson-Laird2012;textual}{jl12}
 #' (see \code{jl12::\link[jl12]{jl_tonal_dissonance}}).

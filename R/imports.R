@@ -4,6 +4,9 @@ NULL
 #' @importFrom zeallot "%<-%"
 NULL
 
+#' @importFrom methods "is"
+NULL
+
 #' @importFrom stats "approx" "cor" "fft"
 NULL
 

@@ -61,13 +61,13 @@ implemented:
 
 | Label                     | Citation                      | Class                   | Package  |
 | :------------------------ | :---------------------------- | :---------------------- | :------- |
-| gill\_09\_harmonicity     | Gill & Purves (2009)          | Periodicity/harmonicity | bowl18   |
+| gill\_09\_harmonicity     | Gill & Purves (2009)          | Periodicity/harmonicity | incon    |
 | har\_18\_harmonicity      | Harrison & Pearce (2018)      | Periodicity/harmonicity | har18    |
 | milne\_13\_harmonicity    | Milne (2013)                  | Periodicity/harmonicity | har18    |
 | parn\_88\_root\_ambig     | Parncutt (1988)               | Periodicity/harmonicity | parn88   |
 | parn\_94\_complex         | Parncutt & Strasburger (1994) | Periodicity/harmonicity | parn94   |
 | stolz\_15\_periodicity    | Stolzenburg (2015)            | Periodicity/harmonicity | stolz15  |
-| bowl\_18\_min\_freq\_dist | Bowling et al. (2018)         | Interference            | bowl18   |
+| bowl\_18\_min\_freq\_dist | Bowling et al. (2018)         | Interference            | incon    |
 | huron\_94\_dyadic         | Huron (1994)                  | Interference            | incon    |
 | hutch\_78\_roughness      | Hutchinson & Knopoff (1978)   | Interference            | dycon    |
 | parn\_94\_pure            | Parncutt & Strasburger (1994) | Interference            | parn94   |

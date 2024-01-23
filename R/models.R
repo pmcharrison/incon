@@ -64,12 +64,12 @@ add_model <- function(label,
 add_model("gill_09_harmonicity",
           "Gill & Purves (2009)",
           "Periodicity/harmonicity",
-          "bowl18",
+          "incon",
           consonance = TRUE,
           spectrum_sensitive = FALSE,
           continuous_pitch = FALSE,
           f = function(x, num_harmonics, roll_off, ...)
-            bowl18::gill09_harmonicity(x, ...))
+            gill09_harmonicity(x, ...))
 
 add_model("har_18_harmonicity",
           "Harrison & Pearce (2018)",
@@ -135,12 +135,12 @@ add_model("stolz_15_periodicity",
 add_model("bowl_18_min_freq_dist",
           "Bowling et al. (2018)",
           "Interference",
-          "bowl18",
+          "incon",
           consonance = TRUE,
           spectrum_sensitive = FALSE,
           continuous_pitch = TRUE,
           f = function(x, num_harmonics, roll_off, ...)
-            bowl18::bowl18_min_freq_dist(x, ...))
+            bowl18_min_freq_dist(x, ...))
 
 add_model("huron_94_dyadic",
           "Huron (1994)",
@@ -207,16 +207,16 @@ add_model("vass_01_roughness",
 add_model("wang_13_roughness",
           "Wang et al. (2013)",
           "Interference",
-          "wang13",
+          "incon",
           consonance = FALSE,
           spectrum_sensitive = TRUE,
           continuous_pitch = TRUE,
           f = function(x, num_harmonics, roll_off, ...)
-            wang13::roughness_wang(x,
-                                   num_harmonics = num_harmonics,
-                                   roll_off = roll_off,
-                                   msg = NULL,
-                                   ...))
+            roughness_wang(x,
+                           num_harmonics = num_harmonics,
+                           roll_off = roll_off,
+                           msg = NULL,
+                           ...))
 
 add_model("jl_12_tonal",
           "Johnson-Laird et al. (2012)",

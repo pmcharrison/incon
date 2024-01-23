@@ -22,5 +22,5 @@ The demo takes the form of an Shiny app
 (\url{https://shiny.rstudio.com/}).
 }
 \references{
-\insertRef{Wang2013}{wang13}
+\insertRef{Wang2013}{incon}
 }
