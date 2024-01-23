@@ -17,6 +17,7 @@ Imports:
     magrittr (>= 1.5),
     purrr (>= 0.3.2),
     methods,
+    gtools,
     tibble (>= 2.1.3),
     dplyr (>= 0.8.3),
     rlang (>= 0.4.0),
