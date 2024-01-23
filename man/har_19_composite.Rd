@@ -34,8 +34,8 @@ The model combines several sub-models:
 the roughness model of \insertCite{Hutchinson1978;textual}{dycon}
 (see \code{dycon::\link[dycon]{roughness_hutch}});
 \item \code{har_18_harmonicity},
-the harmonicity model of \insertCite{Harrison2018;textual}{har18}
-(see \code{har18::\link[har18]{pc_harmonicity}});
+the harmonicity model of \insertCite{Harrison2018;textual}{incon}
+(see \code{incon::\link[incon]{pc_harmonicity}});
 \item \code{har_19_corpus}:
 a corpus-based model of cultural familiarity
 (Harrison & Pearce, in preparation)

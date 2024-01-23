@@ -61,11 +61,11 @@
 #' the harmonicity model of \insertCite{Gill2009;textual}{incon}
 #' (see \code{incon::\link[incon]{gill09_harmonicity}}).
 #' * `har_18_harmonicity`:
-#' the harmonicity model of \insertCite{Harrison2018;textual}{har18}
-#' (see \code{har18::\link[har18]{pc_harmonicity}}).
+#' the harmonicity model of \insertCite{Harrison2018;textual}{incon}
+#' (see \code{incon::\link[incon]{pc_harmonicity}}).
 #' * `milne_13_harmonicity`:
-#' the harmonicity model of \insertCite{Milne2013;textual}{har18}
-#' (see \code{har18::\link[har18]{pc_harmonicity}}).
+#' the harmonicity model of \insertCite{Milne2013;textual}{incon}
+#' (see \code{incon::\link[incon]{pc_harmonicity}}).
 #' * `parn_88_root_ambig`:
 #' the root ambiguity model of \insertCite{Parncutt1988;textual}{parn88}
 #' (see \code{parn88::\link[parn88]{root_ambiguity}}).
@@ -109,7 +109,7 @@
 #' (see \code{parn94::\link[parn94]{multiplicity}}).
 #' * `har_19_composite`:
 #' a model combining interference \insertCite{Hutchinson1978}{dycon},
-#' periodicity/harmonicity \insertCite{Harrison2018}{har18},
+#' periodicity/harmonicity \insertCite{Harrison2018}{incon},
 #' and cultural familiarity,
 #' as introduced by \insertCite{Harrison2019;textual}{incon}.
 #' @references

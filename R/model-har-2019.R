@@ -25,8 +25,8 @@ har_19_composite_coef <- tibble::tribble(
 #' the roughness model of \insertCite{Hutchinson1978;textual}{dycon}
 #' (see \code{dycon::\link[dycon]{roughness_hutch}});
 #' - `har_18_harmonicity`,
-#' the harmonicity model of \insertCite{Harrison2018;textual}{har18}
-#' (see \code{har18::\link[har18]{pc_harmonicity}});
+#' the harmonicity model of \insertCite{Harrison2018;textual}{incon}
+#' (see \code{incon::\link[incon]{pc_harmonicity}});
 #' - `har_19_corpus`:
 #' a corpus-based model of cultural familiarity
 #' (Harrison & Pearce, in preparation)

@@ -74,16 +74,16 @@ add_model("gill_09_harmonicity",
 add_model("har_18_harmonicity",
           "Harrison & Pearce (2018)",
           "Periodicity/harmonicity",
-          "har18",
+          "incon",
           consonance = TRUE,
           spectrum_sensitive = TRUE,
           continuous_pitch = TRUE,
           f = function(x, num_harmonics, roll_off, ...)
-            har18::pc_harmonicity(x,
-                                  method = "kl",
-                                  num_harmonics = num_harmonics,
-                                  rho = roll_off * 0.75,
-                                  ...))
+            pc_harmonicity(x,
+                           method = "kl",
+                           num_harmonics = num_harmonics,
+                           rho = roll_off * 0.75,
+                           ...))
 
 add_model("milne_13_harmonicity",
           "Milne (2013)",

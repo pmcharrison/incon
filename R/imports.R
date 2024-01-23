@@ -1,3 +1,13 @@
+## usethis namespace: start
+#' @useDynLib incon, .registration = TRUE
+## usethis namespace: end
+NULL
+
+## usethis namespace: start
+#' @importFrom Rcpp sourceCpp
+## usethis namespace: end
+NULL
+
 #' @importFrom magrittr "%>%"
 NULL
 

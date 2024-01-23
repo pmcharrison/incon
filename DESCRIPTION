@@ -27,10 +27,12 @@ Suggests:
     testthat (>= 2.1.1),
     knitr (>= 1.23),
     DT (>= 0.5),
-    covr (>= 3.2.1)
+    covr (>= 3.2.1),
     ggplot2 (>= 3.1.0.9000)
 RoxygenNote: 7.3.1
 Remotes: 
     pmcharrison/hrep
 VignetteBuilder: knitr
 Byte-Compile: yes
+LinkingTo: 
+    Rcpp
