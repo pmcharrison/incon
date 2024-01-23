@@ -16,4 +16,7 @@ NULL
 #' @importFrom utils "capture.output"
 NULL
 
+#' @importFrom rlang ".data"
+NULL
+
 `.` <- NULL
