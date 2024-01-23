@@ -4,8 +4,14 @@
 \alias{incon}
 \title{Simultaneous consonance}
 \usage{
-incon(x, model = "hutch_78_roughness", x_int = NULL,
-  num_harmonics = 11L, roll_off = 1, par = list())
+incon(
+  x,
+  model = "hutch_78_roughness",
+  x_int = NULL,
+  num_harmonics = 11L,
+  roll_off = 1,
+  par = list()
+)
 }
 \arguments{
 \item{x}{Chord to analyse.
