@@ -70,8 +70,8 @@
 #' the root ambiguity model of \insertCite{Parncutt1988;textual}{parn88}
 #' (see \code{incon::\link[incon]{root_ambiguity}}).
 #' * `parn_94_complex`:
-#' the complex sonorousness feature of \insertCite{Parncutt1994;textual}{parn94}
-#' (see \code{parn94::\link[parn94]{complex_sonor}}).
+#' the complex sonorousness feature of \insertCite{Parncutt1994;textual}{incon}
+#' (see \code{incon::\link[incon]{complex_sonor}}).
 #' * `stolz_15_periodicity`:
 #' smoothed logarithmic periodicity,
 #' after \insertCite{Stolzenburg2015;textual}{stolz15}
@@ -86,8 +86,8 @@
 #' the roughness model of \insertCite{Hutchinson1978;textual}{dycon}
 #' (see \code{dycon::\link[dycon]{roughness_hutch}}).
 #' * `parn_94_pure`:
-#' the complex sonorousness feature of \insertCite{Parncutt1994;textual}{parn94}
-#' (see \code{parn94::\link[parn94]{pure_sonor}}).
+#' the complex sonorousness feature of \insertCite{Parncutt1994;textual}{incon}
+#' (see \code{incon::\link[incon]{pure_sonor}}).
 #' * `seth_93_roughness`:
 #' the roughness model of \insertCite{Sethares1993;textual}{dycon}
 #' (see \code{dycon::\link[dycon]{roughness_seth}}).
@@ -105,8 +105,8 @@
 #' \insertCite{Harrison2019}{incon}
 #' (see \code{incon::\link[incon]{corpus_dissonance}}).
 #' * `parn_94_mult`:
-#' the multiplicity feature of \insertCite{Parncutt1994;textual}{parn94}
-#' (see \code{parn94::\link[parn94]{multiplicity}}).
+#' the multiplicity feature of \insertCite{Parncutt1994;textual}{incon}
+#' (see \code{incon::\link[incon]{multiplicity}}).
 #' * `har_19_composite`:
 #' a model combining interference \insertCite{Hutchinson1978}{dycon},
 #' periodicity/harmonicity \insertCite{Harrison2018}{incon},

@@ -88,39 +88,39 @@ add_model("har_18_harmonicity",
 add_model("milne_13_harmonicity",
           "Milne (2013)",
           "Periodicity/harmonicity",
-          "har18",
+          "incon",
           consonance = TRUE,
           spectrum_sensitive = TRUE,
           continuous_pitch = TRUE,
           f = function(x, num_harmonics, roll_off, ...)
-            har18::pc_harmonicity(x,
-                                  method = "peak",
-                                  num_harmonics = num_harmonics,
-                                  rho = roll_off * 0.75,
-                                  ...))
+            pc_harmonicity(x,
+                           method = "peak",
+                           num_harmonics = num_harmonics,
+                           rho = roll_off * 0.75,
+                           ...))
 
 add_model("parn_88_root_ambig",
           "Parncutt (1988)",
           "Periodicity/harmonicity",
-          "parn88",
+          "incon",
           consonance = FALSE,
           spectrum_sensitive = FALSE,
           continuous_pitch = FALSE,
           f = function(x, num_harmonics, roll_off, ...)
-            parn88::root_ambiguity(x, ...))
+            root_ambiguity(x, ...))
 
 add_model("parn_94_complex",
           "Parncutt & Strasburger (1994)",
           "Periodicity/harmonicity",
-          "parn94",
+          "incon",
           consonance = TRUE,
           spectrum_sensitive = TRUE,
           continuous_pitch = FALSE,
           f = function(x, num_harmonics, roll_off, ...)
-            parn94::complex_sonor(x,
-                                  num_harmonics = num_harmonics,
-                                  roll_off = roll_off,
-                                  ...))
+            complex_sonor(x,
+                          num_harmonics = num_harmonics,
+                          roll_off = roll_off,
+                          ...))
 
 add_model("stolz_15_periodicity",
           "Stolzenburg (2015)",
