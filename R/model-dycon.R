@@ -212,21 +212,6 @@ hutch_visualise_data <- function(x, cbw_cut_off, a, b, min_freq, max_freq, ...) 
   df3
 }
 
-#' ggplot theme
-#'
-#' Defines a default theme for visualising computations
-#' for Hutchinson & Knopoff's (1978) model
-#' (see \code{\link{hutch_visualise}}).
-#' @export
-hutch_visualise_theme <- ggplot2::theme_classic() +
-  ggplot2::theme(
-    panel.spacing = ggplot2::unit(1.9, "lines"),
-    strip.background = ggplot2::element_blank(),
-    axis.text.x = ggplot2::element_text(colour = "black"),
-    axis.text.y = ggplot2::element_text(colour = "black"),
-    axis.ticks = ggplot2::element_line(colour = "black")
-  )
-
 #' Visualise
 #'
 #' Creates a plot visualising computations for Hutchinson & Knopoff's model.
@@ -252,7 +237,6 @@ hutch_visualise <- function(x,
                             colour_limits = c(0, 3),
                             colour_low = "darkblue",
                             colour_high = "red",
-                            theme = hutch_visualise_theme,
                             ...) {
   stopifnot(is.list(x), !is.null(names(x)), !anyDuplicated(names(x)))
   x <- purrr::map(x, hrep::sparse_fr_spectrum, ...)
@@ -272,8 +256,7 @@ hutch_visualise <- function(x,
                                    low = colour_low,
                                    high = colour_high,
                                    limits = colour_limits) +
-    ggplot2::facet_wrap(~ label, ncol = 1) +
-    theme
+    ggplot2::facet_wrap(~ label, ncol = 1)
 }
 
 #' Spectral roughness (Sethares)

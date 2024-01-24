@@ -14,7 +14,6 @@ hutch_visualise(
   colour_limits = c(0, 3),
   colour_low = "darkblue",
   colour_high = "red",
-  theme = hutch_visualise_theme,
   ...
 )
 }
@@ -37,9 +36,9 @@ hutch_visualise(
 
 \item{colour_high}{Colour to use for the highest roughness.}
 
-\item{theme}{\code{\link[ggplot2]{ggplot}} theme to use.}
-
 \item{...}{Passed to \code{\link[hrep]{sparse_fr_spectrum}}.}
+
+\item{theme}{\code{\link[ggplot2]{ggplot}} theme to use.}
 }
 \description{
 Creates a plot visualising computations for Hutchinson & Knopoff's model.
