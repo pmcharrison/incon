@@ -118,7 +118,7 @@ type.corpus_dissonance_table <- function(x) {
 #' @references
 #' \insertAllCited{}
 #' @export
-corpus_dissonance <- function(x, table = popular_1_pc_chord_type) {
+corpus_dissonance <- function(x, table = incon::popular_1_pc_chord_type) {
   typ <- type(table)
   x <- hrep::represent(x, typ)
   i <- hrep::encode(x)

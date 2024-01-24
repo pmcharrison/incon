@@ -4,7 +4,7 @@
 \alias{corpus_dissonance}
 \title{Corpus dissonance}
 \usage{
-corpus_dissonance(x, table = popular_1_pc_chord_type)
+corpus_dissonance(x, table = incon::popular_1_pc_chord_type)
 }
 \arguments{
 \item{x}{Sonority to analyse.
