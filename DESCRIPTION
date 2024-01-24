@@ -43,7 +43,7 @@ Suggests:
     tuneR
 RoxygenNote: 7.3.1
 Remotes: 
-    pmcharrison/hrep
+    pmcharrison/hrep,
     pmcharrison/hcorp
 VignetteBuilder: knitr
 Byte-Compile: yes
