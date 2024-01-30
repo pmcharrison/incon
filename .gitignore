@@ -9,3 +9,5 @@ www
 inst/shiny/cache
 .cache
 .DS_Store
+.idea
+.ipynb_checkpoints
