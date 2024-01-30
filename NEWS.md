@@ -1,3 +1,8 @@
+# incon 0.5.0
+
+- Consolidated all modelling dependencies into this package, 
+  to avoid having to download so many GitHub repositories on installation.
+
 # incon 0.4.1
 
 - Addressing some minor dependency issues.

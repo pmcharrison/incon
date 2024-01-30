@@ -22,21 +22,21 @@ har_19_composite_coef <- tibble::tribble(
 #'
 #' The model combines several sub-models:
 #' - `hutch_78_roughness`,
-#' the roughness model of \insertCite{Hutchinson1978;textual}{dycon}
-#' (see \code{dycon::\link[dycon]{roughness_hutch}});
+#' the roughness model of \insertCite{Hutchinson1978;textual}{incon}
+#' (see \code{incon::\link[incon]{roughness_hutch}});
 #' - `har_18_harmonicity`,
-#' the harmonicity model of \insertCite{Harrison2018;textual}{har18}
-#' (see \code{har18::\link[har18]{pc_harmonicity}});
+#' the harmonicity model of \insertCite{Harrison2018;textual}{incon}
+#' (see \code{incon::\link[incon]{pc_harmonicity}});
 #' - `har_19_corpus`:
 #' a corpus-based model of cultural familiarity
 #' (Harrison & Pearce, in preparation)
-#' (see \code{corpdiss::\link[corpdiss]{corpus_dissonance}}).
+#' (see \code{incon::\link[incon]{corpus_dissonance}}).
 #'
 #' This model uses the regression coefficients
 #' provided in \code{\link{har_19_composite_coef}}, with one caveat:
 #' by default, the chord size effect is disabled,
 #' because it's thought that this effect came from a confound
-#' in the perceptual data of \insertCite{Bowling2018;textual}{bowl18}.
+#' in the perceptual data of \insertCite{Bowling2018;textual}{incon}.
 #'
 #' @param x Chord to analyse; passed to \code{\link{incon}}.
 #' All chord pitches must be integer-valued.

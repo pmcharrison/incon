@@ -58,58 +58,58 @@
 #' @details
 #' The following models are available:
 #' * `gill_09_harmonicity`:
-#' the harmonicity model of \insertCite{Gill2009;textual}{bowl18}
-#' (see \code{bowl18::\link[bowl18]{gill09_harmonicity}}).
+#' the harmonicity model of \insertCite{Gill2009;textual}{incon}
+#' (see \code{incon::\link[incon]{gill09_harmonicity}}).
 #' * `har_18_harmonicity`:
-#' the harmonicity model of \insertCite{Harrison2018;textual}{har18}
-#' (see \code{har18::\link[har18]{pc_harmonicity}}).
+#' the harmonicity model of \insertCite{Harrison2018;textual}{incon}
+#' (see \code{incon::\link[incon]{pc_harmonicity}}).
 #' * `milne_13_harmonicity`:
-#' the harmonicity model of \insertCite{Milne2013;textual}{har18}
-#' (see \code{har18::\link[har18]{pc_harmonicity}}).
+#' the harmonicity model of \insertCite{Milne2013;textual}{incon}
+#' (see \code{incon::\link[incon]{pc_harmonicity}}).
 #' * `parn_88_root_ambig`:
-#' the root ambiguity model of \insertCite{Parncutt1988;textual}{parn88}
-#' (see \code{parn88::\link[parn88]{root_ambiguity}}).
+#' the root ambiguity model of \insertCite{Parncutt1988;textual}{incon}
+#' (see \code{incon::\link[incon]{root_ambiguity}}).
 #' * `parn_94_complex`:
-#' the complex sonorousness feature of \insertCite{Parncutt1994;textual}{parn94}
-#' (see \code{parn94::\link[parn94]{complex_sonor}}).
+#' the complex sonorousness feature of \insertCite{Parncutt1994;textual}{incon}
+#' (see \code{incon::\link[incon]{complex_sonor}}).
 #' * `stolz_15_periodicity`:
 #' smoothed logarithmic periodicity,
-#' after \insertCite{Stolzenburg2015;textual}{stolz15}
-#' (see \code{stolz15::\link[stolz15]{smooth_log_periodicity}}).
+#' after \insertCite{Stolzenburg2015;textual}{incon}
+#' (see \code{incon::\link[incon]{smooth_log_periodicity}}).
 #' * `bowl_18_min_freq_dist`:
 #' the minimum frequency distance feature of
-#' \insertCite{Bowling2018;textual}{bowl18}
-#' (see \code{bowl18::\link[bowl18]{bowl18_min_freq_dist}}).
+#' \insertCite{Bowling2018;textual}{incon}
+#' (see \code{incon::\link[incon]{bowl18_min_freq_dist}}).
 #' * `huron_94_dyadic`:
 #' aggregate dyadic consonance, after \insertCite{Huron1994;textual}{incon}.
 #' * `hutch_78_roughness`:
-#' the roughness model of \insertCite{Hutchinson1978;textual}{dycon}
-#' (see \code{dycon::\link[dycon]{roughness_hutch}}).
+#' the roughness model of \insertCite{Hutchinson1978;textual}{incon}
+#' (see \code{incon::\link[incon]{roughness_hutch}}).
 #' * `parn_94_pure`:
-#' the complex sonorousness feature of \insertCite{Parncutt1994;textual}{parn94}
-#' (see \code{parn94::\link[parn94]{pure_sonor}}).
+#' the complex sonorousness feature of \insertCite{Parncutt1994;textual}{incon}
+#' (see \code{incon::\link[incon]{pure_sonor}}).
 #' * `seth_93_roughness`:
-#' the roughness model of \insertCite{Sethares1993;textual}{dycon}
-#' (see \code{dycon::\link[dycon]{roughness_seth}}).
+#' the roughness model of \insertCite{Sethares1993;textual}{incon}
+#' (see \code{incon::\link[incon]{roughness_seth}}).
 #' * `vass_01_roughness`:
-#' the roughness model of \insertCite{Vassilakis2001;textual}{dycon}
-#' (see \code{dycon::\link[dycon]{roughness_vass}}).
+#' the roughness model of \insertCite{Vassilakis2001;textual}{incon}
+#' (see \code{incon::\link[incon]{roughness_vass}}).
 #' * `wang_13_roughness`:
-#' the roughness model of \insertCite{Wang2013;textual}{wang13}
-#' (see \code{wang13::\link[wang13]{roughness_wang}}).
+#' the roughness model of \insertCite{Wang2013;textual}{incon}
+#' (see \code{incon::\link[incon]{roughness_wang}}).
 #' * `jl_12_tonal`:
-#' the tonal dissonance model of \insertCite{Johnson-Laird2012;textual}{jl12}
-#' (see \code{jl12::\link[jl12]{jl_tonal_dissonance}}).
+#' the tonal dissonance model of \insertCite{Johnson-Laird2012;textual}{incon}
+#' (see \code{incon::\link[incon]{jl_tonal_dissonance}}).
 #' * `har_19_corpus`:
 #' a corpus-based model of cultural familiarity
 #' \insertCite{Harrison2019}{incon}
-#' (see \code{corpdiss::\link[corpdiss]{corpus_dissonance}}).
+#' (see \code{incon::\link[incon]{corpus_dissonance}}).
 #' * `parn_94_mult`:
-#' the multiplicity feature of \insertCite{Parncutt1994;textual}{parn94}
-#' (see \code{parn94::\link[parn94]{multiplicity}}).
+#' the multiplicity feature of \insertCite{Parncutt1994;textual}{incon}
+#' (see \code{incon::\link[incon]{multiplicity}}).
 #' * `har_19_composite`:
-#' a model combining interference \insertCite{Hutchinson1978}{dycon},
-#' periodicity/harmonicity \insertCite{Harrison2018}{har18},
+#' a model combining interference \insertCite{Hutchinson1978}{incon},
+#' periodicity/harmonicity \insertCite{Harrison2018}{incon},
 #' and cultural familiarity,
 #' as introduced by \insertCite{Harrison2019;textual}{incon}.
 #' @references

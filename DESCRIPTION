@@ -1,7 +1,7 @@
 Package: incon
 Type: Package
 Title: Computational Models of Simultaneous Consonance
-Version: 0.4.1
+Version: 0.5.0
 Author: person("Peter", "Harrison", email = "pmc.harrison@gmail.com", role = c("aut", "cre"))
 Depends: R (>= 3.4.0)
 Maintainer: Peter Harrison <pmc.harrison@gmail.com>
@@ -10,23 +10,22 @@ License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports:
+    assertthat,
     Rdpack (>= 0.11.0),
+    gmp (>= 0.5.13.2),
     hrep (>= 0.10.0.9001),
-    bowl18 (>= 0.1.0),
-    corpdiss (>= 0.1.0.9000),
-    dycon (>= 0.2.0),
-    har18 (>= 0.1.0),
-    jl12 (>= 0.1.0),
-    parn88 (>= 0.2.0),
-    parn94 (>= 0.2.3),
-    stolz15 (>= 0.1.0),
-    wang13 (>= 0.1.1),
+    hht,
     checkmate (>= 1.9.4),
     magrittr (>= 1.5),
     purrr (>= 0.3.2),
     methods,
+    gtools,
+    Rcpp,
+    numbers,
+    phonTools,
     tibble (>= 2.1.3),
     dplyr (>= 0.8.3),
+    rlang (>= 0.4.0),
     zeallot (>= 0.1.0),
     utils
 RdMacros: Rdpack
@@ -34,18 +33,19 @@ Suggests:
     testthat (>= 2.1.1),
     knitr (>= 1.23),
     DT (>= 0.5),
-    covr (>= 3.2.1)
-RoxygenNote: 6.1.1
+    covr (>= 3.2.1),
+    cowplot,
+    ggplot2 (>= 3.1.0.9000),
+    hcorp,
+    shiny,
+    shinydashboard,
+    shinyjs,
+    tuneR
+RoxygenNote: 7.3.1
 Remotes: 
     pmcharrison/hrep,
-    pmcharrison/bowl18,
-    pmcharrison/corpdiss,
-    pmcharrison/dycon,
-    pmcharrison/har18,
-    pmcharrison/jl12,
-    pmcharrison/parn88,
-    pmcharrison/parn94,
-    pmcharrison/stolz15,
-    pmcharrison/wang13
+    pmcharrison/hcorp
 VignetteBuilder: knitr
 Byte-Compile: yes
+LinkingTo: 
+    Rcpp

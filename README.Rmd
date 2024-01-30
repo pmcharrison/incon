@@ -31,10 +31,8 @@ models of simultaneous consonance perception.
 
 ## Citation
 
-Harrison, P. M. C., & Pearce, M. T. (2019). 
-Instantaneous consonance in the perception and composition of Western music.
-*PsyArXiv*.
-https://doi.org/10.31234/osf.io/6jsug
+Harrison, P. M. C., & Pearce, M. T. (2020). Simultaneous consonance in music perception and composition. 
+*Psychological Review*, *127*(2), 216–244.
 
 ## Installation
 
@@ -45,6 +43,27 @@ by entering the following commands into R:
 if (!require(devtools)) install.packages("devtools")
 devtools::install_github("pmcharrison/incon")
 ```
+
+To run the Jupyter notebook, you need to download this code repository.
+You then need to install Jupyter Notebook (see https://jupyter.org/install):
+
+```
+pip install notebook
+```
+
+Then open R, install `IRkernel`, then run `installspec`:
+
+```r
+install.packages("IRkernel")
+IRkernel::installspec()
+```
+
+Then from a new terminal, open this notebook:
+
+```
+jupyter notebook Demo.ipynb
+```
+
 
 ## Usage 
 
@@ -86,39 +105,12 @@ incon::incon_models %>%
 
 See `?incon` for more details.
 
-## Packages
-
-The functionality of `incon` is split between several low-level R packages,
-listed below.
-
-```{r, results = "asis", echo = FALSE}
-tribble(
-  ~ Package, ~ DOI,
-  "bowl18", "10.5281/zenodo.2545741",
-  "corpdiss", "10.5281/zenodo.2545748",
-  "dycon", "10.5281/zenodo.2545750",
-  "har18", "10.5281/zenodo.2545752",
-  "hcorp", "10.5281/zenodo.2545754",
-  "hrep", "10.5281/zenodo.2545770",
-  "jl12", "10.5281/zenodo.2545756",
-  "parn88", "10.5281/zenodo.1491909",
-  "parn94", "10.5281/zenodo.2545759",
-  "stolz15", "10.5281/zenodo.2545762",
-  "wang13", "10.5281/zenodo.2545764",
-) %>% 
-  mutate(GitHub = paste("https://github.com/pmcharrison/", 
-                        Package,
-                        sep = ""),
-         DOI = sprintf("[%s](https://doi.org/%s)", DOI, DOI)) %>% 
-  kable
-```
-
 ## Spectral representations
 
 Certain `incon` models can be applied to full frequency spectra rather than just
 symbolically notated chords. One example is the set of interference models
 provided in the `dycon` package. In order to run such models on full frequency 
-spectra one must call `hrep` and `dycon` functions explicitly, as in the 
+spectra one must call lower-level functions explicitly, as in the 
 following example, which computes the roughness of a chord using the 
 Hutchinson-Knopoff dissonance model:
 
@@ -129,7 +121,7 @@ spectrum <-
     amplitude = c(1, 0.7, 0.9, 0.6)
   ))
 
-dycon::roughness_hutch(spectrum)
+roughness_hutch(spectrum)
 ```
 
 ## References
