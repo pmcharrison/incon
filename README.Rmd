@@ -31,10 +31,8 @@ models of simultaneous consonance perception.
 
 ## Citation
 
-Harrison, P. M. C., & Pearce, M. T. (2019). 
-Instantaneous consonance in the perception and composition of Western music.
-*PsyArXiv*.
-https://doi.org/10.31234/osf.io/6jsug
+Harrison, P. M. C., & Pearce, M. T. (2020). Simultaneous consonance in music perception and composition. 
+*Psychological Review*, *127*(2), 216–244.
 
 ## Installation
 
@@ -45,6 +43,27 @@ by entering the following commands into R:
 if (!require(devtools)) install.packages("devtools")
 devtools::install_github("pmcharrison/incon")
 ```
+
+To run the Jupyter notebook, you need to download this code repository.
+You then need to install Jupyter Notebook (see https://jupyter.org/install):
+
+```
+pip install notebook
+```
+
+Then open R, install `IRkernel`, then run `installspec`:
+
+```r
+install.packages("IRkernel")
+IRkernel::installspec()
+```
+
+Then from a new terminal, open this notebook:
+
+```
+jupyter notebook Demo.ipynb
+```
+
 
 ## Usage 
 

@@ -27,6 +27,23 @@ if (!require(devtools)) install.packages("devtools")
 devtools::install_github("pmcharrison/incon")
 ```
 
+To run the Jupyter notebook, you need to download this code repository.
+You then need to install Jupyter Notebook (see
+<https://jupyter.org/install>):
+
+    pip install notebook
+
+Then open R, install `IRkernel`, then run `installspec`:
+
+``` r
+install.packages("IRkernel")
+IRkernel::installspec()
+```
+
+Then from a new terminal, open this notebook:
+
+    jupyter notebook Demo.ipynb
+
 ## Usage
 
 The primary function is `incon`, which applies consonance models to an
