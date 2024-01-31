@@ -7,15 +7,16 @@ status](https://travis-ci.org/pmcharrison/incon.svg?branch=master)](https://trav
 [![AppVeyor build
 status](https://ci.appveyor.com/api/projects/status/github/pmcharrison/incon?branch=master&svg=true)](https://ci.appveyor.com/project/pmcharrison/incon)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.2545766.svg)](https://doi.org/10.5281/zenodo.2545766)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/pmcharrison/incon/HEAD?labpath=Demo.ipynb)
 
 `incon` is an R package that implements various computational models of
 simultaneous consonance perception.
 
 ## Citation
 
-Harrison, P. M. C., & Pearce, M. T. (2019). Instantaneous consonance in
-the perception and composition of Western music. *PsyArXiv*.
-<https://doi.org/10.31234/osf.io/6jsug>
+Harrison, P. M. C., & Pearce, M. T. (2020). Simultaneous consonance in
+music perception and composition. *Psychological Review*, *127*(2),
+216–244.
 
 ## Installation
 
@@ -72,6 +73,9 @@ incon(c(60, 63, 67), models)
 
 See *Models* for a list of available models. See the package’s inbuilt
 documentation, `?incon`, for further details.
+
+To try the model without need for a local installation, visit
+<https://mybinder.org/v2/gh/pmcharrison/incon/HEAD?labpath=Demo.ipynb>.
 
 ## Models
 
