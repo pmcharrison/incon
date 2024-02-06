@@ -117,6 +117,6 @@ relative_periodicity <- function(x) {
 
 stolz15_lcm <- function(x) {
   if (length(x) == 1L) x else if (length(x) == 2L) {
-    gmp::lcm.default(x[1], x[2])
+    numbers::LCM(x[1], x[2])
   } else stolz15_lcm(c(x[1], stolz15_lcm(x[-1])))
 }
