@@ -104,7 +104,7 @@ expand_harmonics.fraction <- function(x, max_freq) {
   res <- new.env()
   while (TRUE) {
     n <- n + 1L
-    harmonic <- phonTools::reduce.fraction(x * c(n, 1L))
+    harmonic <- reduce_fraction(x * c(n, 1L))
     if ((harmonic[1] / harmonic[2]) >
         (max_freq[1] / max_freq[2])) break
     res[[as.character(n)]] <- as.character(harmonic)

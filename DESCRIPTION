@@ -22,7 +22,6 @@ Imports:
     gtools,
     Rcpp,
     numbers,
-    phonTools,
     tibble (>= 2.1.3),
     dplyr (>= 0.8.3),
     rlang (>= 0.4.0),
