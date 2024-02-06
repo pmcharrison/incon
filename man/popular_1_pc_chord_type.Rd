@@ -10,7 +10,7 @@ McGill Billboard corpus \insertCite{Burgoyne2011}{hcorp}.
 These pieces were sampled from the Billboard magazine's
 United States "Hot 100" chart between 1958 and 1991,
 and transcribed by expert musicians.
-See \code{\link[hcorp]{popular_1}} for more details.
+See `?hcorp::popular_1` for more details.
 }
 \details{
 Chords are represented as pitch-class chord types:
