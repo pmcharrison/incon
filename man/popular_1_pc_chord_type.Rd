@@ -6,7 +6,7 @@
 \title{Consonance tables for popular music}
 \description{
 This table summarises chord prevalences in the
-McGill Billboard corpus \insertCite{Burgoyne2011}{hcorp}.
+McGill Billboard corpus \insertCite{Burgoyne2011}{incon}.
 These pieces were sampled from the Billboard magazine's
 United States "Hot 100" chart between 1958 and 1991,
 and transcribed by expert musicians.

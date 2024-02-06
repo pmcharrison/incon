@@ -1,7 +1,7 @@
 #' Consonance tables for popular music
 #'
 #' This table summarises chord prevalences in the
-#' McGill Billboard corpus \insertCite{Burgoyne2011}{hcorp}.
+#' McGill Billboard corpus \insertCite{Burgoyne2011}{incon}.
 #' These pieces were sampled from the Billboard magazine's
 #' United States "Hot 100" chart between 1958 and 1991,
 #' and transcribed by expert musicians.
@@ -90,7 +90,7 @@ type.corpus_dissonance_table <- function(x) {
 #' Calculates a corpus-based estimate of the dissonance of a sonority.
 #' @details
 #' By default, dissonance is estimated from chord prevalences
-#' in the McGill Billboard dataset \insertCite{Burgoyne2011}{hcorp}.
+#' in the McGill Billboard dataset \insertCite{Burgoyne2011}{incon}.
 #' The dataset's contents were sampled from the Billboard magazine's
 #' United States "Hot 100" chart between 1958 and 1991,
 #' and transcribed by expert musicians.
